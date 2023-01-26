@@ -68,6 +68,7 @@
     "vite": "^3.2.4",
     "vitest": "^0.25.3",
     "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
     "wait-on": "^6.0.1"
   },
   "chromium-args": "--enable-spell-checking --load-extension='./node_modules/nw-vue-devtools-prebuilt/extension'",

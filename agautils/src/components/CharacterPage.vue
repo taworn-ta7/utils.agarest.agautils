@@ -1,25 +1,27 @@
 <template>
-	<router-view></router-view>
+	<main>
+		<ul>
+			<li>
+				<button @click.prevent="this.$router.go(-1)">Back</button>
+			</li>
+		</ul>
+	</main>
 </template>
 
 
 
 <script>
-import HomePage from '@/components/HomePage.vue';
-
 export default {
 
-	name: 'App',
-
 	components: {
-		HomePage,
 	},
 
 	data: function () {
+		return {
+		};
 	},
 
 	mounted() {
-		this.$router.replace('/');
 	},
 
 	methods: {
