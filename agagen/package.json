@@ -1,0 +1,16 @@
+{
+	"name": "agagen",
+	"version": "1.0.0",
+	"description": "Generate data from https://agarest.fandom.com/wiki/Agarest_Wiki",
+	"main": "./src/main.js",
+	"scripts": {
+		"start": "node ./src/main.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"jsdom": "^21.1.0"
+	}
+}
