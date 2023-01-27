@@ -11,6 +11,8 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"jsdom": "^21.1.0"
+		"jsdom": "^21.1.0",
+		"winston": "^3.8.2",
+		"winston-daily-rotate-file": "^4.7.1"
 	}
 }
