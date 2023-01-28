@@ -1,0 +1,153 @@
+- name: Handgun
+  slots: []
+- name: Shotgun
+  slots: []
+- name: Silver Gun
+  slots: []
+- name: Buster Gun
+  slots:
+    - Power
+- name: Assault Cannon
+  slots:
+    - Power
+- name: Raika
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Hiryu
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Gekko
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Fuma
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Saiga
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Gun
+  slots:
+    - Power
+    - Combo
+- name: Bone Shooter
+  slots:
+    - Power
+    - Combo
+- name: Repeater
+  slots:
+    - Combo
+    - Combo
+- name: Shadow Blaster
+  slots:
+    - Power
+    - Power
+    - Dark
+- name: Snipe Buster
+  slots:
+    - Power
+    - Power
+- name: Mithril Gun
+  slots:
+    - Power
+    - Combo
+- name: Moon Crusher
+  slots:
+    - Power
+    - Light
+    - Extra
+- name: Hidden Seeker
+  slots:
+    - Power
+    - Combo
+- name: Sonic Gun
+  slots:
+    - Power
+    - Combo
+- name: Railgun
+  slots:
+    - Power
+    - Power
+- name: Hidden Blaster
+  slots:
+    - Power
+    - Power
+    - Dark
+- name: Orichalcum Gun
+  slots:
+    - Power
+    - Power
+    - Combo
+- name: Quickrain
+  slots:
+    - Combo
+    - Combo
+    - Water
+- name: Blacksmir
+  slots:
+    - Power
+    - Combo
+    - Combo
+    - Dark
+- name: Liquid Fire
+  slots:
+    - Power
+    - Power
+    - Fire
+    - Light
+- name: Hidden Stalk
+  slots:
+    - Power
+    - Wind
+    - Dark
+- name: Salamander
+  slots:
+    - Power
+    - Fire
+    - Earth
+    - Extra
+- name: Sorcery Gun
+  slots:
+    - Combo
+    - Dark
+    - Light
+    - Extra
+- name: Doragu Riser
+  slots:
+    - Power
+    - Power
+    - Fire
+    - Thunder
+- name: Hydropain
+  slots:
+    - Water
+    - Earth
+    - Wind
+    - Extra
+- name: Revolver Cannon
+  slots:
+    - Power
+    - Power
+    - Combo
+    - Combo
+- name: U-Arbiter
+  slots:
+    - Power
+    - Dark
+    - Light
+    - Extra
+- name: Armageddon
+  slots:
+    - Power
+    - Power
+    - Combo
+    - Extra

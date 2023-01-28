@@ -1,0 +1,197 @@
+- name: Iron Rod
+  slots: []
+- name: Broom Wand
+  slots:
+    - Light
+- name: Hammer
+  slots:
+    - Power
+- name: Staff of Healing
+  slots:
+    - Earth
+    - Light
+- name: Silver Rod
+  slots:
+    - Special
+    - Earth
+- name: Spiked Hammer
+  slots:
+    - Power
+    - Extra
+- name: Staff of Blessing
+  slots:
+    - Light
+    - Light
+    - Extra
+- name: Mystic
+  slots:
+    - Dark
+    - Dark
+    - Extra
+- name: Flame Rod
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Ice Rod
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Rising Rod
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Gale Spike
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Cradle Wand
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Rod
+  slots:
+    - Special
+    - Power
+    - Earth
+- name: Sledge Hammer
+  slots:
+    - Power
+    - Power
+    - Extra
+- name: Magic Blade
+  slots:
+    - Dark
+    - Light
+    - Extra
+- name: Luna's Wand
+  slots:
+    - Earth
+    - Light
+    - Light
+- name: Calamity Spike
+  slots:
+    - Power
+    - Power
+    - Earth
+- name: Mithril Rod
+  slots:
+    - Special
+    - Power
+    - Earth
+- name: Crusher
+  slots:
+    - Power
+    - Power
+    - Extra
+- name: Madu
+  slots:
+    - Power
+    - Power
+    - Dark
+- name: Katoyanga
+  slots:
+    - Special
+    - Power
+    - Power
+- name: Cat's Eye
+  slots:
+    - Fire
+    - Water
+    - Extra
+- name: Mist Wand
+  slots:
+    - Dark
+    - Dark
+    - Extra
+- name: Ray Blade
+  slots:
+    - Light
+    - Light
+    - Extra
+- name: Orichalcum Rod
+  slots:
+    - Special
+    - Special
+    - Power
+- name: Cursed Eye
+  slots:
+    - Water
+    - Thunder
+    - Dark
+- name: Skull Staff
+  slots:
+    - Fire
+    - Earth
+    - Dark
+    - Extra
+- name: Artemis
+  slots:
+    - Thunder
+    - Wind
+    - Earth
+    - Extra
+- name: Holy Rod
+  slots:
+    - Special
+    - Light
+    - Light
+    - Extra
+- name: Earth Shaker
+  slots:
+    - Power
+    - Power
+    - Earth
+    - Earth
+- name: Material Wand
+  slots:
+    - Fire
+    - Light
+    - Dark
+    - Extra
+- name: Caduceus
+  slots:
+    - Water
+    - Thunder
+    - Earth
+    - Extra
+- name: Gridarvolr
+  slots:
+    - Power
+    - Power
+    - Wind
+    - Earth
+- name: Kounodaki
+  slots:
+    - Special
+    - Special
+    - Power
+    - Power
+- name: Cat Punch
+  slots:
+    - Power
+    - Wind
+    - Light
+    - Extra
+- name: Rodriguez III
+  slots:
+    - Water
+    - Earth
+    - Light
+    - Extra
+- name: Calinou's Hammer
+  slots:
+    - Fire
+    - Dark
+    - Light
+    - Extra
+- name: Nemesis
+  slots:
+    - Thunder
+    - Dark
+    - Light
+    - Extra

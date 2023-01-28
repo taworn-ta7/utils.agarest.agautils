@@ -1,0 +1,264 @@
+- name: Rusty Sword
+  slots: []
+- name: Iron Sword
+  slots: []
+- name: Fleuret
+  slots:
+    - Combo
+- name: Long Sword
+  slots:
+    - Fire
+    - Extra
+- name: Spata
+  slots:
+    - General
+    - Wind
+    - Extra
+- name: Silver Sword
+  slots:
+    - General
+- name: Rapier
+  slots:
+    - General
+    - Combo
+- name: Crush Sword
+  slots:
+    - Fire
+    - Earth
+    - Extra
+- name: Mauler Blade
+  slots:
+    - Earth
+    - Light
+    - Extra
+- name: Chozurimaru
+  slots:
+    - General
+    - General
+    - Earth
+- name: Fireseal Sword
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Iceseal Sword
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Thunderseal Sword
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Windseal Sword
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Earthseal Sword
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Sword
+  slots:
+    - General
+    - General
+- name: Owl Rapier
+  slots:
+    - General
+    - Combo
+- name: Damascus Sword
+  slots:
+    - General
+    - General
+    - Dark
+- name: Reverse Katana
+  slots:
+    - General
+    - Combo
+    - Combo
+- name: Unicorn Sword
+  slots:
+    - Water
+    - Earth
+    - Light
+- name: Phantom Sword
+  slots:
+    - General
+    - Dark
+    - Dark
+- name: Light Bringer
+  slots:
+    - Combo
+    - Light
+    - Light
+- name: Mithril Sword
+  slots:
+    - General
+    - General
+- name: Estoc
+  slots:
+    - General
+    - Combo
+- name: Sword of Kings
+  slots:
+    - General
+    - General
+    - Extra
+- name: Flamberg
+  slots:
+    - General
+    - Fire
+    - Fire
+- name: Bloody Sword
+  slots:
+    - General
+    - Earth
+    - Dark
+    - Dark
+- name: Holy Beast Sword
+  slots:
+    - Combo
+    - Wind
+    - Light
+    - Light
+- name: Midnight Sun
+  slots:
+    - Combo
+    - Dark
+    - Light
+- name: Meteorite Sword
+  slots:
+    - General
+    - Combo
+    - Light
+    - Extra
+- name: Orichalcum Sword
+  slots:
+    - General
+    - General
+    - Combo
+- name: Avenger
+  slots:
+    - General
+    - Combo
+    - Combo
+- name: Durandal
+  slots:
+    - General
+    - General
+    - Earth
+- name: Material Sword
+  slots:
+    - Dark
+    - Light
+    - Extra
+    - Extra
+- name: Kaiser Sword
+  slots:
+    - General
+    - General
+    - Combo
+    - Extra
+- name: Anglachel
+  slots:
+    - General
+    - General
+    - Dark
+- name: Dainslaif
+  slots:
+    - General
+    - General
+    - Thunder
+- name: Hinokagutsuti
+  slots:
+    - General
+    - General
+    - Fire
+    - Fire
+- name: Futsunomitama
+  slots:
+    - General
+    - General
+    - Light
+    - Extra
+- name: Moonlight Sword
+  slots:
+    - Combo
+    - Wind
+    - Earth
+    - Light
+- name: Eye Burner
+  slots:
+    - Fire
+    - Thunder
+    - Wind
+    - Extra
+- name: Onikirimaru
+  slots:
+    - Water
+    - Earth
+    - Dark
+    - Light
+- name: Asura
+  slots:
+    - General
+    - General
+    - Combo
+    - Combo
+- name: Gram
+  slots:
+    - General
+    - General
+    - General
+    - Dark
+- name: Rapid Sword
+  slots:
+    - Combo
+    - Combo
+    - Extra
+    - Extra
+- name: Rune Blade
+  slots:
+    - Dark
+    - Light
+    - Light
+    - Extra
+- name: Earendil
+  slots:
+    - Wind
+    - Light
+    - Light
+    - Extra
+- name: Soul Breaker
+  slots:
+    - General
+    - General
+    - Combo
+    - Combo
+- name: Princess's Sword
+  slots:
+    - Combo
+    - Combo
+    - Light
+    - Extra
+- name: Leo's Sword
+  slots:
+    - General
+    - General
+    - Combo
+    - Combo
+- name: Eyes of Death
+  slots:
+    - General
+    - General
+    - Thunder
+    - Dark
+- name: Shining Light
+  slots:
+    - General
+    - General
+    - Light
+    - Extra

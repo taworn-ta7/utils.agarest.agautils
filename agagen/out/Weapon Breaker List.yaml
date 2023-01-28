@@ -1,0 +1,162 @@
+- name: Iron Break
+  slots: []
+- name: Longhorn
+  slots:
+    - Earth
+- name: Silver Break
+  slots:
+    - Special
+- name: Moonring Blade
+  slots:
+    - Special
+    - Special
+- name: Quick Turn
+  slots:
+    - Special
+    - General
+    - Wind
+- name: Fire Bird
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Ice Breaker
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Thunder Break
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Wind Break
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Sol Breaker
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Break
+  slots:
+    - Special
+    - General
+- name: Dancing Sword
+  slots:
+    - Special
+    - Special
+    - Extra
+- name: Ankh Horn
+  slots:
+    - General
+    - General
+- name: Chakram
+  slots:
+    - Earth
+    - Dark
+    - Extra
+- name: Blazer
+  slots:
+    - Special
+    - General
+    - General
+- name: Mithril Break
+  slots:
+    - Special
+    - General
+- name: Buistlatter
+  slots:
+    - Special
+    - Special
+    - Wind
+- name: Attack Command
+  slots:
+    - General
+    - General
+    - Thunder
+- name: Faruky's Horn
+  slots:
+    - General
+    - General
+- name: Brave Dance
+  slots:
+    - Special
+    - General
+    - Fire
+- name: Sarnga
+  slots:
+    - Special
+    - General
+    - Earth
+- name: O-Break
+  slots:
+    - Special
+    - Special
+    - General
+- name: Silent Cross
+  slots:
+    - Special
+    - Wind
+    - Dark
+    - Extra
+- name: Mizuchi
+  slots:
+    - Special
+    - Water
+    - Water
+    - Thunder
+- name: Cruel Horn
+  slots:
+    - Special
+    - General
+    - General
+- name: Reppu
+  slots:
+    - Power
+    - Combo
+    - Dark
+- name: Noya Eye
+  slots:
+    - General
+    - Dark
+    - Light
+    - Extra
+- name: Sonic Blade
+  slots:
+    - Special
+    - Special
+    - Wind
+    - Wind
+- name: Dragon Wing
+  slots:
+    - General
+    - General
+    - Fire
+    - Fire
+- name: Blue Dolphin
+  slots:
+    - Special
+    - Water
+    - Light
+    - Extra
+- name: Nothung
+  slots:
+    - Special
+    - Thunder
+    - Light
+    - Extra
+- name: Sudarsana
+  slots:
+    - Special
+    - Special
+    - General
+    - General
+- name: Mobius Link
+  slots:
+    - General
+    - Wind
+    - Dark
+    - Light
