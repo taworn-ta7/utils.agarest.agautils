@@ -1,0 +1,9 @@
+name: Yayoi
+slots:
+  - Special
+  - Special
+  - Water
+  - Light
+povSlots:
+  - Water
+  - Earth

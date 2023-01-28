@@ -2,12 +2,13 @@ const fs = require('fs');
 const YAML = require('yaml');
 const jsdom = require('jsdom');
 const logger = require('./logger');
+const Slot = require('./slot');
 
 const { JSDOM } = jsdom;
 
 /**
  * Extracts row from table.
- * Returns weapon name and slots.
+ * Returns skill name and used slots.
  */
 function extractRow(tr) {
 	const result = {
@@ -34,7 +35,9 @@ function extractRow(tr) {
 				const imgs = td.getElementsByTagName('img');
 				for (let k = 0; k < imgs.length; k++) {
 					const alt = imgs[k].alt;
-					result.slots.push(alt);
+					if (Slot.checkSlot(alt)) {
+						result.slots.push(alt);
+					}
 				}
 			}
 		}
@@ -50,7 +53,7 @@ function extractRow(tr) {
 
 /**
  * Extracts table.
- * Returns one weapon list.
+ * Returns combination skill list.
  */
 function extractTable(table) {
 	const result = [];
@@ -65,7 +68,7 @@ function extractTable(table) {
 		}
 	}
 	catch (e) {
-		// errors detected, skip whole skill list and print log
+		// errors detected, skip whole list and print log
 		console.error(e.message);
 		console.error(`combination skills: has detected errors in skills list, skip whole T_T`);
 	}
@@ -90,7 +93,7 @@ function checkTable(table) {
 }
 
 /**
- * Generates all weapon lists.
+ * Generates combination skill list.
  */
 async function generate() {
 	const url = 'https://agarest.fandom.com/wiki/Combination_Attacks';
@@ -104,7 +107,7 @@ async function generate() {
 		const start = dom.window.document.getElementsByClassName('mw-parser-output')[0];
 		//logger.debug(`start: ${start}`);
 		if (!start)
-			throw new Error(`cannot find start extract point`);
+			throw new Error(`skills: cannot find start extract point`);
 
 		// finds all look-like table(s)
 		const tables = start.getElementsByTagName('table');
@@ -122,7 +125,7 @@ async function generate() {
 				break;
 			}
 		}
-		logger.info(`combination skill lists is generated :)`);
+		logger.info(`combination skill list is generated :)`);
 	}
 	catch (e) {
 		console.error(e.message);
@@ -132,4 +135,4 @@ async function generate() {
 
 module.exports = {
 	generate,
-}
+};

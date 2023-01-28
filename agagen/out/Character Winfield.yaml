@@ -1,0 +1,9 @@
+name: Winfield
+slots:
+  - Combo
+  - Combo
+  - Power
+  - Wind
+povSlots:
+  - Power
+  - Thunder

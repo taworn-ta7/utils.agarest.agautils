@@ -2,6 +2,7 @@ const fs = require('fs');
 const YAML = require('yaml');
 const jsdom = require('jsdom');
 const logger = require('./logger');
+const Slot = require('./slot');
 
 const { JSDOM } = jsdom;
 
@@ -32,7 +33,9 @@ function extractRow(tr) {
 				const img = td.getElementsByTagName('img')[0];
 				if (img) {
 					const alt = img.alt;
-					result.slots.push(alt);
+					if (Slot.checkSlot(alt)) {
+						result.slots.push(alt);
+					}
 				}
 			}
 		}
@@ -103,7 +106,7 @@ async function generate() {
 		const start = dom.window.document.getElementsByClassName('mw-parser-output')[0];
 		//logger.debug(`start: ${start}`);
 		if (!start)
-			throw new Error(`cannot find start extract point`);
+			throw new Error(`weapons: cannot find start extract point`);
 
 		// weapon lists
 		const typeList = [
@@ -147,4 +150,4 @@ async function generate() {
 
 module.exports = {
 	generate,
-}
+};
