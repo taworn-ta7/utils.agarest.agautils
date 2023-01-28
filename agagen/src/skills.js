@@ -17,26 +17,28 @@ function extractRow(tr) {
 
 	// extracts all columns
 	try {
+		// it's arrange with th, th, td, td, td...
+		// th[1] is name
+		// td[0] column 3rd is combination
+
+		// extracts name
+		const th = tr.getElementsByTagName('th')[1];
+		result.name = th.textContent.trim();
+		//logger.debug(`${result.name}`);
+
 		const tds = tr.getElementsByTagName('td');
-		for (var j = 0; j < tds.length; j++) {
+		for (let j = 0; j < tds.length; j++) {
 			const td = tds[j];
-
 			if (j === 0) {
-				// extracts name
-				result.name = td.textContent.trim();
-				//logger.debug(`${result.name}`);
-			}
-
-			else if (j >= 20 && j < 24) {
-				// extracts slot 1-4
-				const img = td.getElementsByTagName('img')[0];
-				if (img) {
-					const alt = img.alt;
+				// extracts slots used
+				const imgs = td.getElementsByTagName('img');
+				for (let k = 0; k < imgs.length; k++) {
+					const alt = imgs[k].alt;
 					result.slots.push(alt);
 				}
 			}
 		}
-		return result.name !== null ? result : null;
+		return result.name !== null && result.slots.length > 0 ? result : null;
 	}
 	catch (e) {
 		// errors detected, skip and print log
@@ -54,7 +56,7 @@ function extractTable(table) {
 	const result = [];
 	try {
 		const trs = table.getElementsByTagName('tr');
-		for (var i = 0; i < trs.length; i++) {
+		for (let i = 0; i < trs.length; i++) {
 			const tr = trs[i];
 			const row = extractRow(tr);
 			if (row) {
@@ -107,7 +109,7 @@ async function generate() {
 		// finds all look-like table(s)
 		const tables = start.getElementsByTagName('table');
 		//logger.debug(`table(s): ${tables.length} element(s)`);
-		for (var i = 0; i < tables.length; i++) {
+		for (let i = 0; i < tables.length; i++) {
 			const table = tables[i];
 			if (checkTable(table)) {
 				// extracts table data

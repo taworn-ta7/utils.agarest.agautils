@@ -18,7 +18,7 @@ function extractRow(tr) {
 	// extracts all columns
 	try {
 		const tds = tr.getElementsByTagName('td');
-		for (var j = 0; j < tds.length; j++) {
+		for (let j = 0; j < tds.length; j++) {
 			const td = tds[j];
 
 			if (j === 0) {
@@ -54,7 +54,7 @@ function extractTable(type, table) {
 	const result = [];
 	try {
 		const trs = table.getElementsByTagName('tr');
-		for (var i = 0; i < trs.length; i++) {
+		for (let i = 0; i < trs.length; i++) {
 			const tr = trs[i];
 			const row = extractRow(tr);
 			if (row) {
@@ -122,7 +122,7 @@ async function generate() {
 		// finds all look-like table(s)
 		const tables = start.getElementsByTagName('table');
 		//logger.debug(`table(s): ${tables.length} element(s)`);
-		for (var i = 0; i < tables.length; i++) {
+		for (let i = 0; i < tables.length; i++) {
 			const table = tables[i];
 			if (checkTable(table)) {
 				// extracts table data
