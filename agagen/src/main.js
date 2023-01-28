@@ -1,7 +1,13 @@
 const logger = require('./logger');
 const weapons = require('./weapons');
+const skills = require('./skills');
 
-logger.info(`Agarest Generator, v0.1`);
-logger.info(``);
+async function main() {
+	logger.info(`Agarest Generator, v0.1`);
+	logger.info(`output files will be generated in ./out directory!`);
+	logger.info();
 
-weapons.generate();
+	await weapons.generate();
+	await skills.generate();
+}
+main();
