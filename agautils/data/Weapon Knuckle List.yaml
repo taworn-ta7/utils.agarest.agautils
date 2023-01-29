@@ -1,0 +1,167 @@
+- name: Iron Knuckles
+  slots: []
+- name: Bone Knuckles
+  slots:
+    - Combo
+    - Dark
+- name: Silver Knuckles
+  slots:
+    - Combo
+- name: Gold Finger
+  slots:
+    - Combo
+    - Power
+    - Earth
+- name: Adaka
+  slots:
+    - Power
+    - Thunder
+- name: Flame Knuckles
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Ice Hand
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Thunder Bagh Nakh
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Air Break
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Gaia Claw
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Knuckles
+  slots:
+    - Combo
+    - Combo
+- name: Chain Knuckles
+  slots:
+    - Combo
+    - Power
+    - Power
+- name: Inescapable Grasp
+  slots:
+    - Combo
+    - Power
+    - Thunder
+- name: Jamadhar
+  slots:
+    - Combo
+    - Power
+    - Dark
+- name: Ogre Claw
+  slots:
+    - Power
+    - Power
+    - Fire
+- name: Mithril Knuckles
+  slots:
+    - Combo
+    - Combo
+- name: Ymir's Claw
+  slots:
+    - Combo
+    - Thunder
+    - Earth
+- name: Magic Hand
+  slots:
+    - Dark
+    - Light
+    - Extra
+- name: Gatling Knuckles
+  slots:
+    - Combo
+    - Combo
+    - Fire
+- name: Decayed Claw
+  slots:
+    - Dark
+    - Dark
+    - Extra
+- name: Dragon Claw
+  slots:
+    - Power
+    - Power
+    - Fire
+- name: O-Knuckles
+  slots:
+    - Combo
+    - Combo
+    - Power
+- name: Dark Finger
+  slots:
+    - Combo
+    - Dark
+    - Dark
+    - Extra
+- name: Saint Hand
+  slots:
+    - Combo
+    - Light
+    - Light
+    - Extra
+- name: Starlight
+  slots:
+    - Combo
+    - Power
+    - Light
+    - Extra
+- name: Genbu's Gauntlet
+  slots:
+    - Power
+    - Power
+    - Water
+    - Earth
+- name: Naglfar
+  slots:
+    - Combo
+    - Combo
+    - Dark
+    - Dark
+- name: Rekka
+  slots:
+    - Power
+    - Fire
+    - Wind
+    - Earth
+- name: Retsurai
+  slots:
+    - Combo
+    - Water
+    - Thunder
+    - Wind
+- name: Glory
+  slots:
+    - Combo
+    - Light
+    - Light
+    - Extra
+- name: Vasaltis
+  slots:
+    - Combo
+    - Thunder
+    - Light
+    - Extra
+- name: Kaiser Knuckles
+  slots:
+    - Combo
+    - Combo
+    - Power
+    - Power
+- name: Lost Regnum
+  slots:
+    - Combo
+    - Power
+    - Dark
+    - Light

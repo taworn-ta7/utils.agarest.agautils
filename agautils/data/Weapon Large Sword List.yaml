@@ -1,0 +1,111 @@
+- name: Iron Blade
+  slots: []
+- name: Zweihander
+  slots: []
+- name: Silver Blade
+  slots: []
+- name: Zanbato
+  slots:
+    - Power
+- name: Brionac
+  slots:
+    - Power
+- name: Platinum Blade
+  slots:
+    - Power
+- name: Seiryu's Sword
+  slots:
+    - General
+    - Water
+    - Earth
+- name: Tosukanotsurugi
+  slots:
+    - Power
+- name: Dragon Killer
+  slots:
+    - Power
+    - Fire
+- name: Mithril Blade
+  slots:
+    - Power
+    - Power
+- name: Shichishitou
+  slots:
+    - Power
+    - Power
+- name: Brynhildr
+  slots:
+    - Power
+    - Wind
+    - Light
+- name: Tyr's Fang
+  slots:
+    - Power
+    - Power
+    - Earth
+- name: Flamberge
+  slots:
+    - Power
+    - Fire
+    - Fire
+- name: O-Blade
+  slots:
+    - Power
+    - Power
+- name: Sea Fire
+  slots:
+    - Power
+    - Power
+    - Fire
+- name: Snow Wolf's Fang
+  slots:
+    - Power
+    - Power
+    - Water
+- name: Annihilator
+  slots:
+    - Power
+    - Power
+    - General
+- name: Dragvindel
+  slots:
+    - Power
+    - Power
+    - Fire
+    - Earth
+- name: Avalanche
+  slots:
+    - Power
+    - Power
+    - Water
+    - Water
+- name: Yagrush
+  slots:
+    - Power
+    - Thunder
+    - Dark
+    - Light
+- name: Aymur
+  slots:
+    - General
+    - Water
+    - Wind
+    - Earth
+- name: Agito
+  slots:
+    - Power
+    - Power
+    - Power
+    - General
+- name: Dynamis's End
+  slots:
+    - Power
+    - General
+    - Dark
+    - Extra
+- name: Muso Fugaku
+  slots:
+    - Power
+    - Power
+    - Power
+    - General

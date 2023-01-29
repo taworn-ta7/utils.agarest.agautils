@@ -1,0 +1,9 @@
+name: Arbol
+slots:
+  - Power
+  - Power
+  - Earth
+  - Thunder
+povSlots:
+  - Earth
+  - Wind

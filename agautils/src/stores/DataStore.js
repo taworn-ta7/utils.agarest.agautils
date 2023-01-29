@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import Characters from '@/helpers/characters';
+import Utils from '../helpers/utils';
 
 /**
  * Data singleton class.
@@ -16,7 +16,7 @@ export const useDataStore = defineStore({
 		 * Loads all data.
 		 */
 		async setup() {
-			Characters.loadCharacters();
+			console.log(JSON.stringify(Utils.characterList, null, 2));
 		},
 
 		// ----------------------------------------------------------------------

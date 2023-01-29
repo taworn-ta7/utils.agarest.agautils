@@ -1,0 +1,163 @@
+- name: Iron Scythe
+  slots: []
+- name: Bone Scythe
+  slots:
+    - Dark
+- name: Silver Scythe
+  slots:
+    - Power
+- name: Headhunting Scythe
+  slots:
+    - Special
+    - Dark
+- name: Demonic Scythe
+  slots:
+    - Special
+    - Dark
+    - Dark
+- name: Flare Barrel
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Aqua Scythe
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Photon Edge
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Void Scythe
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Dignor
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Scythe
+  slots:
+    - Power
+    - Special
+- name: Executioner
+  slots:
+    - Special
+    - Dark
+- name: Damascus Scythe
+  slots:
+    - Power
+    - Power
+- name: Kamaitachi Arm
+  slots:
+    - Special
+    - Water
+    - Wind
+- name: Testament
+  slots:
+    - Thunder
+    - Light
+    - Extra
+- name: Mithril Scythe
+  slots:
+    - Power
+    - Special
+- name: Scythe of Contract
+  slots:
+    - Special
+    - Dark
+    - Extra
+- name: Death-Scythe
+  slots:
+    - Power
+    - Power
+    - Dark
+- name: Einphantom
+  slots:
+    - Power
+    - Power
+    - Earth
+- name: Wind Slicer
+  slots:
+    - Power
+    - Thunder
+    - Wind
+- name: Soul Sucker
+  slots:
+    - Special
+    - Dark
+    - Extra
+- name: Orichalcum Scythe
+  slots:
+    - Power
+    - Power
+    - Special
+- name: Finbrain
+  slots:
+    - Special
+    - Water
+    - Water
+    - Earth
+- name: Reaper's Sickle
+  slots:
+    - Fire
+    - Earth
+    - Dark
+    - Dark
+- name: Louisette
+  slots:
+    - Water
+    - Thunder
+    - Wind
+    - Extra
+- name: Ginna's Scythe
+  slots:
+    - Power
+    - Power
+    - Power
+- name: Crescent Moon
+  slots:
+    - Wind
+    - Light
+    - Light
+    - Extra
+- name: Halper Scythe
+  slots:
+    - Power
+    - Power
+    - Special
+    - Special
+- name: Hades
+  slots:
+    - Power
+    - Water
+    - Dark
+    - Extra
+- name: Helheim
+  slots:
+    - Power
+    - Fire
+    - Earth
+    - Extra
+- name: G.O.H.
+  slots:
+    - Power
+    - Special
+    - Light
+    - Extra
+- name: S.O.D.
+  slots:
+    - Power
+    - Earth
+    - Dark
+    - Extra
+- name: Soul Blaze
+  slots:
+    - Power
+    - Dark
+    - Light
+    - Extra

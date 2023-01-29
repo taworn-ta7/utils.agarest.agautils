@@ -1,0 +1,429 @@
+- name: Quadruple Attack
+  slots:
+    - General
+    - General
+- name: Broken Hit
+  slots:
+    - General
+    - Power
+- name: Vanish Trick
+  slots:
+    - Combo
+    - Special
+- name: Icicle Edge
+  slots:
+    - Water
+    - Wind
+- name: Double Needle
+  slots:
+    - Water
+    - Earth
+- name: Holy Mist
+  slots:
+    - Light
+    - Dark
+- name: Snatch
+  slots:
+    - Special
+    - Special
+- name: Scarlet Peony
+  slots:
+    - Fire
+    - Fire
+    - Power
+- name: Ice Field
+  slots:
+    - Water
+    - Water
+    - Combo
+- name: Thunder Field
+  slots:
+    - Thunder
+    - Thunder
+    - General
+- name: Flare Field
+  slots:
+    - Wind
+    - Wind
+    - Special
+- name: Sonic Blast
+  slots:
+    - Combo
+    - General
+- name: Power Burst
+  slots:
+    - Power
+    - Power
+- name: Rapid Stream
+  slots:
+    - Combo
+    - Combo
+- name: Stun Bash
+  slots:
+    - Power
+    - Special
+- name: Steam Burst
+  slots:
+    - Power
+    - Earth
+    - Earth
+- name: Delta Attack
+  slots:
+    - General
+    - Power
+- name: Cross Orbit
+  slots:
+    - Power
+    - Special
+- name: Triple Sonic
+  slots:
+    - Combo
+    - General
+- name: Irregular Step
+  slots:
+    - Special
+    - Combo
+- name: Thunder Whip
+  slots:
+    - Thunder
+    - Earth
+- name: Aerial
+  slots:
+    - Fire
+    - Wind
+- name: Flame Bullet
+  slots:
+    - Fire
+    - Wind
+- name: Muspellzheimr
+  slots:
+    - Fire
+    - Thunder
+    - Dark
+- name: Shadow Burn
+  slots:
+    - Earth
+    - Dark
+- name: Pile Bunker
+  slots:
+    - Power
+    - Combo
+- name: Tetra Bolt
+  slots:
+    - Thunder
+    - Earth
+- name: Holy Storm
+  slots:
+    - Wind
+    - Light
+- name: Eruption
+  slots:
+    - Fire
+    - Dark
+- name: Hati
+  slots:
+    - Water
+    - Wind
+    - Wind
+- name: Ankh Glaive
+  slots:
+    - Earth
+    - Earth
+    - Power
+- name: Hunter Killer
+  slots:
+    - General
+    - Special
+    - Special
+- name: Deep Stab
+  slots:
+    - General
+    - Power
+    - Special
+- name: Blood Sucker
+  slots:
+    - Water
+    - Dark
+    - Special
+    - Extra
+- name: Cross Blade
+  slots:
+    - Power
+    - Special
+- name: Meltdown
+  slots:
+    - Dark
+    - Extra
+- name: Thor Hammer
+  slots:
+    - Thunder
+    - Thunder
+    - Power
+- name: Elemental Call
+  slots:
+    - Fire
+    - Water
+    - Thunder
+    - Wind
+    - Earth
+- name: Joint Break
+  slots:
+    - Special
+    - General
+- name: Bullet Shell
+  slots:
+    - General
+    - Combo
+- name: Deadly Dance
+  slots:
+    - Special
+    - Combo
+- name: Photon Spark
+  slots:
+    - Thunder
+    - Water
+- name: Frozen Ray
+  slots:
+    - Light
+    - Water
+- name: Arc Ray
+  slots:
+    - Light
+    - Dark
+- name: Crimson Storm
+  slots:
+    - Fire
+    - Wind
+- name: Execution
+  slots:
+    - General
+    - General
+    - General
+- name: Gore Crush
+  slots:
+    - Power
+    - Power
+    - Power
+- name: Axel Rave
+  slots:
+    - Combo
+    - Combo
+    - Combo
+- name: Mirage Force
+  slots:
+    - Special
+    - Special
+    - Special
+- name: Explosion
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Avalanche
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Thunderstorm
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Cyclone
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Earthquake
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Grand Cross
+  slots:
+    - Dark
+    - Dark
+    - Dark
+- name: Earth Nova
+  slots:
+    - Light
+    - Light
+    - Light
+- name: Meteor Blow
+  slots:
+    - Power
+    - Power
+    - Combo
+- name: Cocytus Rage
+  slots:
+    - Water
+    - Light
+    - Extra
+- name: Dark Matter
+  slots:
+    - Dark
+    - Dark
+    - Dark
+- name: Grand Buster
+  slots:
+    - Special
+    - Power
+    - Combo
+- name: Vorpal Buster
+  slots:
+    - Power
+    - General
+    - Combo
+- name: Status Up+
+  slots:
+    - Extra
+    - Extra
+- name: Chaos Flare
+  slots:
+    - Fire
+    - Extra
+    - Earth
+    - Extra
+- name: Turbulence
+  slots:
+    - Extra
+    - Earth
+    - Water
+- name: Geo Jaeger
+  slots:
+    - Water
+    - Thunder
+    - Wind
+- name: Raging Storm
+  slots:
+    - Extra
+    - Fire
+    - Thunder
+- name: Calamity Storm
+  slots:
+    - Earth
+    - Wind
+    - Thunder
+- name: Judgement
+  slots:
+    - Light
+    - Light
+    - Extra
+    - Extra
+    - Extra
+- name: Frost Blaze
+  slots:
+    - Water
+    - Fire
+    - Water
+    - Fire
+- name: Qutuga
+  slots:
+    - Combo
+    - Combo
+    - Dark
+    - Extra
+    - Power
+- name: Gloria
+  slots:
+    - Earth
+    - Light
+    - Light
+- name: Abyssal Fear
+  slots:
+    - Dark
+    - Dark
+    - Dark
+    - Extra
+- name: Cruel Force
+  slots:
+    - General
+    - General
+    - General
+    - Power
+    - Power
+    - Power
+- name: Fanatic Rave
+  slots:
+    - Combo
+    - Combo
+    - Combo
+    - Special
+    - Special
+    - Special
+- name: Annihilating Circle
+  slots:
+    - Light
+    - Light
+    - Dark
+    - Dark
+- name: Genesis Wave
+  slots:
+    - Combo
+    - General
+    - Special
+    - Power
+- name: Thousand Kill
+  slots:
+    - Combo
+    - General
+    - Power
+    - Special
+- name: Angelic Howl
+  slots:
+    - General
+    - Light
+    - General
+    - General
+    - Extra
+- name: Flame Seal
+  slots:
+    - Fire
+    - Wind
+    - Fire
+    - Wind
+    - Special
+- name: Thunder Seal
+  slots:
+    - Thunder
+    - Earth
+    - Thunder
+    - Combo
+    - Earth
+- name: Prison Dead
+  slots:
+    - Wind
+    - Water
+    - Thunder
+    - Fire
+    - Earth
+- name: Genesis End
+  slots:
+    - Combo
+    - General
+    - Power
+    - Combo
+    - General
+    - Special
+- name: A-Fierceness
+  slots:
+    - Light
+    - Dark
+    - Light
+    - Dark
+    - Extra
+- name: Arc-En-Ciel
+  slots:
+    - Fire
+    - Water
+    - Wind
+    - Thunder
+    - Earth
+- name: Ragnarok
+  slots:
+    - Extra
+    - Extra
+    - Extra
+    - Dark
+    - Light
+    - Dark

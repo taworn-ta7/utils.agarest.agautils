@@ -1,0 +1,163 @@
+- name: Iron Spear
+  slots: []
+- name: Corcesca
+  slots:
+    - Earth
+- name: Silver Spear
+  slots: []
+- name: Harpoon
+  slots:
+    - General
+    - Thunder
+- name: Pole-Axe
+  slots:
+    - General
+- name: Flame Spear
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Ice Lance
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Bolt Lance
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Wind Spear
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Glaive
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Spear
+  slots:
+    - General
+    - General
+- name: Halberd
+  slots:
+    - General
+    - Power
+- name: Damascus Spear
+  slots:
+    - General
+    - General
+- name: Partisan
+  slots:
+    - General
+    - Power
+- name: Beast Hunt
+  slots:
+    - Power
+    - Power
+    - Power
+- name: Mithril Spear
+  slots:
+    - General
+    - General
+- name: Crystal Spear
+  slots:
+    - Water
+    - Water
+    - Light
+- name: Bardiche
+  slots:
+    - General
+    - Power
+- name: Kasensou
+  slots:
+    - Power
+    - Fire
+    - Fire
+- name: Divine Lance
+  slots:
+    - Light
+    - Light
+    - Extra
+- name: Trident
+  slots:
+    - Power
+    - Water
+    - Thunder
+- name: Orichalcum Spear
+  slots:
+    - General
+    - General
+    - Power
+- name: Holy Lance
+  slots:
+    - General
+    - General
+    - Light
+    - Light
+- name: Dragoon Lance
+  slots:
+    - Power
+    - Power
+    - Fire
+- name: Pinaka
+  slots:
+    - General
+    - Power
+    - Power
+- name: Sansentou
+  slots:
+    - General
+    - Power
+    - Fire
+    - Thunder
+- name: Gungnir
+  slots:
+    - Power
+    - Power
+    - Dark
+    - Light
+- name: Slepinir
+  slots:
+    - Power
+    - Power
+    - Thunder
+    - Dark
+- name: High Wind
+  slots:
+    - General
+    - Wind
+    - Earth
+    - Light
+- name: Revoltcane
+  slots:
+    - General
+    - General
+    - Power
+    - Power
+- name: Vajra
+  slots:
+    - General
+    - Power
+    - Fire
+    - Wind
+- name: Nirvana
+  slots:
+    - General
+    - General
+    - Power
+    - Power
+- name: Augenblick
+  slots:
+    - General
+    - Power
+    - Thunder
+    - Extra
+- name: Sons of the Sun
+  slots:
+    - General
+    - Power
+    - Light
+    - Extra

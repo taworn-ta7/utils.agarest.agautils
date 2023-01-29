@@ -1,0 +1,197 @@
+- name: Iron Knife
+  slots:
+    - Combo
+- name: Baselard
+  slots:
+    - Combo
+    - Thunder
+    - Wind
+- name: Silver Knife
+  slots:
+    - Combo
+- name: Rondel Dagger
+  slots:
+    - Combo
+    - Special
+- name: Lucky Dagger
+  slots:
+    - Special
+    - Light
+    - Extra
+- name: Shield Sword
+  slots:
+    - Combo
+    - Earth
+- name: Kokihi
+  slots:
+    - Fire
+    - Fire
+    - Fire
+- name: Seihiki
+  slots:
+    - Water
+    - Water
+    - Water
+- name: Dokko
+  slots:
+    - Thunder
+    - Thunder
+    - Thunder
+- name: Urayanagi
+  slots:
+    - Wind
+    - Wind
+    - Wind
+- name: Kuchiba
+  slots:
+    - Earth
+    - Earth
+    - Earth
+- name: Platinum Knife
+  slots:
+    - Combo
+    - Combo
+- name: Stiletto
+  slots:
+    - Combo
+    - Special
+    - Fire
+- name: Sword Breaker
+  slots:
+    - Special
+    - Special
+    - Extra
+- name: Triple Dagger
+  slots:
+    - Combo
+    - Combo
+    - Combo
+- name: Hunter's Blade
+  slots:
+    - Combo
+    - Special
+    - Earth
+- name: Mithril Knife
+  slots:
+    - Combo
+    - Combo
+- name: Gladius
+  slots:
+    - Combo
+    - Combo
+    - Special
+- name: Follow Knife
+  slots:
+    - Combo
+    - Fire
+    - Wind
+- name: Rising Edge
+  slots:
+    - Special
+    - Thunder
+    - Earth
+- name: Enchanted Knife
+  slots:
+    - Water
+    - Dark
+    - Light
+    - Extra
+- name: Mugen's Claw
+  slots:
+    - Special
+    - Earth
+    - Dark
+- name: Split Sword
+  slots:
+    - Combo
+    - Combo
+    - Special
+- name: Orichalcum Knife
+  slots:
+    - Combo
+    - Combo
+    - Special
+- name: Spiral Claw
+  slots:
+    - Special
+    - Special
+    - Wind
+    - Dark
+- name: Blood Red
+  slots:
+    - Combo
+    - Combo
+    - Fire
+    - Earth
+- name: Aerial Knife
+  slots:
+    - Special
+    - Special
+    - Thunder
+    - Wind
+- name: Ten-blade
+  slots:
+    - Combo
+    - Combo
+    - Combo
+    - Special
+- name: Kogarasumaru
+  slots:
+    - Combo
+    - Combo
+    - Special
+    - Wind
+- name: Krishna
+  slots:
+    - Combo
+    - Special
+    - Fire
+    - Thunder
+- name: Curtana
+  slots:
+    - Combo
+    - Combo
+    - Dark
+    - Light
+- name: Ridill
+  slots:
+    - Special
+    - Wind
+    - Dark
+    - Extra
+- name: Hrunting
+  slots:
+    - Combo
+    - Combo
+    - Special
+    - Light
+- name: Silpheed
+  slots:
+    - Combo
+    - Special
+    - Wind
+    - Wind
+- name: Avenir
+  slots:
+    - Fire
+    - Thunder
+    - Dark
+    - Extra
+- name: Aqua Chrome
+  slots:
+    - Water
+    - Earth
+    - Light
+    - Extra
+- name: Brave Hunter
+  slots:
+    - Combo
+    - Combo
+    - Special
+    - Extra
+- name: Bontenmaru
+  slots:
+    - Combo
+    - Combo
+    - Special
+    - Special
