@@ -1,9 +1,10 @@
 name: Luana
+weapons:
+  - Breaker
 slots:
   - Special
   - Special
   - General
   - Fire
-povSlots:
   - Fire
   - Water

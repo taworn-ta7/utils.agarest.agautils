@@ -1,9 +1,10 @@
 name: Valeria
+weapons:
+  - Spear
 slots:
   - General
   - General
   - Power
   - Fire
-povSlots:
   - Light
   - Power

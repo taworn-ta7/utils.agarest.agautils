@@ -1,9 +1,10 @@
 name: Alberti
+weapons:
+  - Dagger
 slots:
   - Special
   - Special
   - Combo
   - Wind
-povSlots:
   - Dark
   - Combo

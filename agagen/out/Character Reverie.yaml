@@ -1,9 +1,10 @@
 name: Reverie
+weapons:
+  - Spear
 slots:
   - General
   - General
   - Power
   - Water
-povSlots:
   - Water
   - Extra

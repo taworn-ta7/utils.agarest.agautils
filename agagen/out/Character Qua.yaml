@@ -1,9 +1,10 @@
 name: Qua
+weapons:
+  - Knuckle
 slots:
   - Combo
   - Combo
   - Power
   - Power
-povSlots:
   - Fire
   - Thunder

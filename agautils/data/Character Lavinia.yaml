@@ -1,9 +1,10 @@
 name: Lavinia
+weapons:
+  - Sword
 slots:
   - General
   - General
   - Combo
   - Dark
-povSlots:
   - Water
   - Thunder

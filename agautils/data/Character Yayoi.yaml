@@ -1,9 +1,10 @@
 name: Yayoi
+weapons:
+  - Rod
 slots:
   - Special
   - Special
   - Water
   - Light
-povSlots:
   - Water
   - Earth

@@ -1,9 +1,10 @@
 name: Sharona
+weapons:
+  - Breaker
 slots:
   - Special
   - Special
   - General
   - Extra
-povSlots:
   - Earth
   - Dark

@@ -1,9 +1,10 @@
 name: Silvi
+weapons:
+  - Sword
 slots:
   - General
   - General
   - Combo
   - Wind
-povSlots:
   - Wind
   - Water

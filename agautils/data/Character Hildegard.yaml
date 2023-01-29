@@ -1,9 +1,10 @@
 name: Hildegard
+weapons:
+  - Gun
 slots:
   - Power
   - Power
   - Special
   - Special
-povSlots:
   - Fire
   - Thunder

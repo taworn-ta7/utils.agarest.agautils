@@ -1,9 +1,10 @@
 name: Borgnine
+weapons:
+  - Knuckle
 slots:
   - Power
   - Power
   - Combo
   - Combo
-povSlots:
   - Wind
   - Extra

@@ -1,9 +1,10 @@
 name: Dyshana
+weapons:
+  - Scythe
 slots:
   - Power
   - Power
   - Dark
   - Light
-povSlots:
   - Extra
   - Extra

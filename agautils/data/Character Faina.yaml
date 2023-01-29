@@ -1,9 +1,10 @@
 name: Faina
+weapons:
+  - Rod
 slots:
   - Special
   - Special
   - Earth
   - Light
-povSlots:
   - Light
   - Extra

@@ -1,9 +1,10 @@
 name: Arbol
+weapons:
+  - Rod
 slots:
   - Power
   - Power
   - Earth
   - Thunder
-povSlots:
   - Earth
   - Wind

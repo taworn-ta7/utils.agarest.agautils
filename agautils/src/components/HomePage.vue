@@ -16,7 +16,7 @@
 		<label for="proof-of-valor">Proof of Valor</label>
 		<br />
 
-		<textarea v-model="resultSlots" rows="12" cols="50" />
+		<textarea v-model="resultSlots" rows="15" cols="50" />
 		<br />
 
 		<button @click.prevent="exit()">
@@ -55,11 +55,21 @@ export default {
 	},
 
 	methods: {
+		formatWeaponList(weapons) {
+			let result = "";
+			for (let i = 0; i < weapons.length; i++)
+				result += `- ${weapons[i]}
+`;
+			return result;
+		},
+
 		refresh: function () {
 			const data = this.dataStore.getCharacterData(this.selectedCharacter);
 			console.log(`data: ${JSON.stringify(data)}, proof of valor=${this.proofOfValor}`);
 			let text = `${data.name}
 
+Weapons:
+${this.formatWeaponList(data.weapons)}
 Unit Slots:
 - ${data.slots[0]}
 - ${data.slots[1]}
@@ -67,10 +77,8 @@ Unit Slots:
 - ${data.slots[3]}
 `;
 			if (this.proofOfValor) {
-				text += `
-Upgrade Slots:
-- ${data.povSlots[0]}
-- ${data.povSlots[1]}
+				text += `- ${data.slots[4]}
+- ${data.slots[5]}
 `;
 			}
 			this.resultSlots = text;
@@ -80,7 +88,7 @@ Upgrade Slots:
 			this.$router.push('/weapon')
 		},
 
-		skill: function() {
+		skill: function () {
 			this.$router.push('/skill')
 		},
 

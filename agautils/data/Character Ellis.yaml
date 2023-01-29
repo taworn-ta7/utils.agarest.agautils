@@ -1,9 +1,11 @@
 name: Ellis
+weapons:
+  - Rod
+  - Sword
 slots:
   - Special
   - Special
   - Light
   - Extra
-povSlots:
   - Light
   - Water

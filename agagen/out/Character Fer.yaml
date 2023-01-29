@@ -1,9 +1,10 @@
 name: Fer
+weapons:
+  - Breaker
 slots:
   - Special
   - Special
   - General
   - General
-povSlots:
   - Water
   - Thunder

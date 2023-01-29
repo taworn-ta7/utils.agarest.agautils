@@ -1,9 +1,10 @@
 name: Elaine
+weapons:
+  - Spear
 slots:
   - Power
   - Power
   - General
   - Wind
-povSlots:
   - General
   - Earth

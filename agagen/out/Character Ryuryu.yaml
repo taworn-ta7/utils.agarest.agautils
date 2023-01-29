@@ -1,9 +1,10 @@
 name: Ryuryu
+weapons:
+  - Scythe
 slots:
   - Special
   - Special
   - Thunder
   - Light
-povSlots:
   - Earth
   - Light

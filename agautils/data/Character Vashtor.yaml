@@ -1,9 +1,11 @@
 name: Vashtor
+weapons:
+  - Sword
+  - Large Sword
 slots:
   - General
   - General
   - Power
   - Power
-povSlots:
   - Dark
   - Extra

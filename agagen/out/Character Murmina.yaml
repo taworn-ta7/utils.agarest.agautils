@@ -1,9 +1,10 @@
 name: Murmina
+weapons:
+  - Gun
 slots:
   - Power
   - Power
   - Combo
   - Combo
-povSlots:
   - Thunder
   - Dark

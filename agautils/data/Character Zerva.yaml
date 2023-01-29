@@ -1,9 +1,10 @@
 name: Zerva
+weapons:
+  - Scythe
 slots:
   - Power
   - Power
   - Fire
   - Dark
-povSlots:
   - Dark
   - Thunder

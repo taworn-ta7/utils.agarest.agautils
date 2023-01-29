@@ -7,7 +7,7 @@ const Utils = require('./utils');
 
 const { JSDOM } = jsdom;
 
-function extractTable(table, name) {
+function extractTable(table, data) {
 	const slots = [];
 	try {
 		// extracts slot(s)
@@ -25,23 +25,11 @@ function extractTable(table, name) {
 	}
 	catch (e) {
 		console.error(e.message);
-		console.error(`${name}: has detected errors, skip`);
+		console.error(`${data.name}: has detected errors, skip`);
 	}
 
-	const result = {
-		name,
-		slots: [
-			slots[0],
-			slots[1],
-			slots[2],
-			slots[3],
-		],
-		povSlots: [
-			slots[4],
-			slots[5],
-		],
-	};
-	return result;
+	data.slots = slots;
+	return data;
 }
 
 function checkTable(table) {
@@ -75,9 +63,17 @@ async function generate() {
 			for (let i = 0; i < tables.length; i++) {
 				const table = tables[i];
 				if (checkTable(table)) {
+					// preload data
+					const found = Utils.characterDict.find((e) => e.name === name);
+					const data = {
+						name,
+						weapons: found.weapons,
+						slots: null,
+					};
+
 					// extracts table data
-					const array = extractTable(table, name);
-					const result = YAML.stringify(array);
+					extractTable(table, data);
+					const result = YAML.stringify(data);
 
 					// saves
 					await fs.promises.writeFile(`./out/Character ${name}.yaml`, result);

@@ -1,9 +1,10 @@
 name: Plum
+weapons:
+  - Rod
 slots:
   - Special
   - Special
   - Water
   - Earth
-povSlots:
   - Water
   - Earth

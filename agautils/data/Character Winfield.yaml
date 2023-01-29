@@ -1,9 +1,10 @@
 name: Winfield
+weapons:
+  - Gun
 slots:
   - Combo
   - Combo
   - Power
   - Wind
-povSlots:
   - Power
   - Thunder

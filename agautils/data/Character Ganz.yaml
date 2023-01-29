@@ -1,9 +1,10 @@
 name: Ganz
+weapons:
+  - Spear
 slots:
   - General
   - General
   - Power
   - Power
-povSlots:
   - Earth
   - Fire

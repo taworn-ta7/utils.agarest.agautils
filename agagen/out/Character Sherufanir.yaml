@@ -1,9 +1,10 @@
 name: Sherufanir
+weapons:
+  - Dagger
 slots:
   - Special
   - Special
   - Combo
   - Earth
-povSlots:
   - Earth
   - Fire

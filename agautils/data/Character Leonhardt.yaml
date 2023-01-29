@@ -1,9 +1,11 @@
 name: Leonhardt
+weapons:
+  - Sword
+  - Large Sword
 slots:
   - General
   - General
   - Power
   - Power
-povSlots:
   - Fire
   - Extra

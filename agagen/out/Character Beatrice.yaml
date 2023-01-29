@@ -1,9 +1,11 @@
 name: Beatrice
+weapons:
+  - Sword
+  - Dagger
 slots:
   - Combo
   - Combo
   - Special
   - Special
-povSlots:
   - Dark
   - Thunder
