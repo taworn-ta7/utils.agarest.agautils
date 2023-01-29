@@ -7,9 +7,11 @@
 		"start": "node ./src/main.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"keywords": [
+		"agarest"
+	],
+	"author": "Taworn Ta.",
+	"license": "MIT",
 	"dependencies": {
 		"jsdom": "^21.1.0",
 		"winston": "^3.8.2",

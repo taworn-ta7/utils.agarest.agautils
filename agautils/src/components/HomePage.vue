@@ -27,6 +27,8 @@
 
 
 <script>
+import { useDataStore } from '@/stores/DataStore';
+
 export default {
 
 	components: {
@@ -35,16 +37,16 @@ export default {
 	data: function () {
 		return {
 			win: nw.Window.get(),
+			dataStore: useDataStore(),
 		};
 	},
 
 	mounted() {
+		useDataStore().setup();
 	},
 
 	methods: {
-
 		showCombinationSkills: function () {
-			this.$router.push('/character');
 		},
 
 		showWeapons: function () {
