@@ -1,21 +1,17 @@
 <template>
 	<header>
-		<h1>Choose Skills</h1>
+		<h1>Possible Result</h1>
 	</header>
 
 	<main>
-		<select v-model="selectedSkill" @change.prevent="refresh()" size="25">
-			<option v-for="(skill, index) in dataStore.combinationSkillList">
-				{{ skill.name }} {{ skill.slots.length > 0 ? "(" + skill.slots.join(", ") + ")" : "" }}
-			</option>
-		</select>
+		<textarea v-model="possibleResult" rows="25" cols="50" />
 		<br />
 
 		<button @click.prevent="back()">
 			Back
 		</button>
-		<button @click.prevent="next()">
-			Next
+		<button @click.prevent="save()">
+			Save
 		</button>
 	</main>
 </template>
@@ -34,12 +30,12 @@ export default {
 		return {
 			win: nw.Window.get(),
 			dataStore: useDataStore(),
-			selectedSkill: null,
+			possibleResult: null,
 		};
 	},
 
 	mounted() {
-		this.selectedSkill = this.dataStore.selectedSkill;
+		this.possibleResult = this.dataStore.possibleResult;
 		this.refresh();
 	},
 
@@ -47,11 +43,8 @@ export default {
 		refresh: function () {
 		},
 
-		next: function () {
-			if (this.selectedSkill) {
-				this.dataStore.selectedSkill = this.selectedSkill;
-				this.$router.push('/result')
-			}
+		save: function () {
+			alert("Will be implement!")
 		},
 
 		back: function () {

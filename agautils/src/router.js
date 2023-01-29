@@ -18,6 +18,11 @@ const router = createRouter({
 			name: 'skill',
 			component: async () => await import('@/components/SkillPage.vue'),
 		},
+		{
+			path: '/result',
+			name: 'result',
+			component: async () => await import('@/components/ResultPage.vue'),
+		},
 	],
 })
 

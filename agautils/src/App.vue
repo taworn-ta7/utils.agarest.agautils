@@ -6,14 +6,12 @@
 
 <script>
 import { useDataStore } from '@/stores/DataStore';
-import HomePage from '@/components/HomePage.vue';
 
 export default {
 
 	name: 'App',
 
 	components: {
-		HomePage,
 	},
 
 	data: function () {

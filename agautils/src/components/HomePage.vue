@@ -16,7 +16,7 @@
 		<label for="proof-of-valor">Proof of Valor</label>
 		<br />
 
-		<textarea v-model="resultSlots" rows="15" cols="50" />
+		<textarea v-model="resultSlots" rows="14" cols="40" />
 		<br />
 
 		<button @click.prevent="exit()">
@@ -52,6 +52,9 @@ export default {
 	},
 
 	mounted() {
+		this.selectedCharacter = this.dataStore.selectedCharacter;
+		this.proofOfValor = this.dataStore.proofOfValor;
+		this.refresh();
 	},
 
 	methods: {
@@ -85,11 +88,23 @@ Unit Slots:
 		},
 
 		weapon: function () {
-			this.$router.push('/weapon')
+			if (this.selectedCharacter) {
+				this.dataStore.selectedCharacter = this.selectedCharacter;
+				this.dataStore.proofOfValor = this.proofOfValor;
+				this.dataStore.selectedUi = 1;
+				this.dataStore.selectedWeapon = null;
+				this.$router.push('/weapon');
+			}
 		},
 
 		skill: function () {
-			this.$router.push('/skill')
+			if (this.selectedCharacter) {
+				this.dataStore.selectedCharacter = this.selectedCharacter;
+				this.dataStore.proofOfValor = this.proofOfValor;
+				this.dataStore.selectedUi = 2;
+				this.dataStore.selectedSkill = null;
+				this.$router.push('/skill');
+			}
 		},
 
 		exit: function () {

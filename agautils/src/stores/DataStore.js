@@ -11,9 +11,34 @@ export const useDataStore = defineStore({
 	id: 'DataStore',
 
 	state: () => ({
+		// preloaded data
 		characterList: [],
 		weaponGroupList: [],
+		weaponGroupDict: {},
 		combinationSkillList: null,
+
+		// selected character and proof of valor
+		selectedCharacter: "Leonhardt",
+		proofOfValor: true,
+
+		// choose weapons or skills
+		// 1 = choose weapons
+		// 2 = choose skills
+		selectedUi: 0,
+
+		// if selectedUi === 1
+		// selected weapon
+		characterWeaponable: null,
+		selectedWeapon: null,
+		possibleSkills: null,
+
+		// if selectedUi === 2
+		// selected skill
+		selectedSkill: null,
+		possibleWeapons: null,
+
+		// possible result
+		possibleResult: null,
 	}),
 
 	actions: {
@@ -28,11 +53,12 @@ export const useDataStore = defineStore({
 				this.characterList.push(doc);
 			}
 
-			this.weaponGroupList = [];
-			for (let i = 0; i < Utils.weaponGroupList.length; i++) {
-				const name = Utils.weaponGroupList[i];
+			this.weaponGroupList = Utils.weaponGroupList;
+			this.weaponGroupDict = {};
+			for (let i = 0; i < this.weaponGroupList.length; i++) {
+				const name = this.weaponGroupList[i];
 				const doc = this.loadDataFile(`./data/Weapon ${name} List.yaml`);
-				this.weaponGroupList.push(doc);
+				this.weaponGroupDict[name] = doc;
 			}
 
 			{
