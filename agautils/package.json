@@ -39,7 +39,8 @@
     "update:vue-devtools": "rimraf ./node_modules/your-app-name-devtools-prebuilt && npm install"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "yaml": "^2.2.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
