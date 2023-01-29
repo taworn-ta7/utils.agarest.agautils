@@ -9,9 +9,14 @@ const router = createRouter({
 			component: async () => await import('@/components/HomePage.vue'),
 		},
 		{
-			path: '/character',
-			name: 'character',
-			component: async () => await import('@/components/CharacterPage.vue'),
+			path: '/weapon',
+			name: 'weapon',
+			component: async () => await import('@/components/WeaponPage.vue'),
+		},
+		{
+			path: '/skill',
+			name: 'skill',
+			component: async () => await import('@/components/SkillPage.vue'),
 		},
 	],
 })

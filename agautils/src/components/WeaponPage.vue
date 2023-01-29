@@ -1,10 +1,8 @@
 <template>
 	<main>
-		<ul>
-			<li>
-				<button @click.prevent="this.$router.go(-1)">Back</button>
-			</li>
-		</ul>
+		<h1>Choose Weapon</h1>
+
+		<button @click.prevent="this.$router.go(-1)">Back</button>
 	</main>
 </template>
 

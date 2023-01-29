@@ -5,6 +5,7 @@
 
 
 <script>
+import { useDataStore } from '@/stores/DataStore';
 import HomePage from '@/components/HomePage.vue';
 
 export default {
@@ -21,6 +22,7 @@ export default {
 	},
 
 	mounted() {
+		useDataStore().setup();
 		this.$router.replace('/');
 	},
 

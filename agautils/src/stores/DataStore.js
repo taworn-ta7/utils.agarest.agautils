@@ -47,7 +47,11 @@ export const useDataStore = defineStore({
 			const fh = fs.readFileSync(file, 'utf8');
 			const doc = YAML.parse(fh);
 			return doc;
-		}
+		},
+
+		getCharacterData(characterName) {
+			return this.characterList.find((e) => e.name === characterName);
+		},
 	},
 
 });
