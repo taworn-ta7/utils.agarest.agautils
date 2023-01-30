@@ -17,6 +17,7 @@
 		</span>
 		<span>
 			<button @click.prevent="save()">Save</button>
+			<button @click.prevent="restart()">Restart Again</button>
 		</span>
 	</footer>
 </template>
@@ -159,6 +160,10 @@ Lack 2 Slots
 			}
 
 			this.possibleResult = text;
+		},
+
+		restart: function () {
+			this.$router.go(-2);
 		},
 
 		save: async function () {
