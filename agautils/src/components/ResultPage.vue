@@ -4,7 +4,11 @@
 	</header>
 
 	<main>
-		<textarea v-model="possibleResult" rows="25" cols="50" />
+		<form class="container flex-column">
+			<div style="width: 100%;">
+				<textarea v-model="possibleResult" rows="25" cols="50" />
+			</div>
+		</form>
 	</main>
 
 	<footer>
@@ -157,8 +161,29 @@ Lack 2 Slots
 			this.possibleResult = text;
 		},
 
-		save: function () {
-			alert("Will be implement!")
+		save: async function () {
+			try {
+				const handle = await window.showSaveFilePicker({
+					suggestedName: this.dataStore.selectedCharacter.name,
+					types: [
+						{
+							description: "Text file",
+							accept: { 'text/plain': ['.txt'] },
+						},
+						{
+							description: "Markdown file",
+							accept: { 'text/plain': ['.md'] },
+						},
+					],
+				});
+
+				const stream = await handle.createWritable();
+				await stream.write(this.possibleResult);
+				await stream.close();
+			}
+			catch (e) {
+				// no file selected, ignore
+			}
 		},
 
 		back: function () {
