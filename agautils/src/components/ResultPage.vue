@@ -4,11 +4,9 @@
 	</header>
 
 	<main>
-		<form class="container flex-column">
-			<div style="width: 100%;">
-				<textarea v-model="possibleResult" rows="25" cols="50" />
-			</div>
-		</form>
+		<div class="container flex-column" style="width: 100%;">
+			<div v-html="possibleResultHtml"></div>
+		</div>
 	</main>
 
 	<footer>
@@ -26,6 +24,7 @@
 
 <script>
 import { useDataStore } from '@/stores/DataStore';
+import { marked } from 'marked';
 
 export default {
 
@@ -37,6 +36,7 @@ export default {
 			win: nw.Window.get(),
 			dataStore: useDataStore(),
 			possibleResult: null,
+			possibleResultHtml: null,
 		};
 	},
 
@@ -67,7 +67,7 @@ export default {
 			const ok = this.dataStore.skillOk;
 			const l1 = this.dataStore.skillLack1;
 			const l2 = this.dataStore.skillLack2;
-			let text = `${char.name}
+			let text = `# ${char.name}
 
 Weapon: ${this.dataStore.selectedWeapon.name}
 ${this.formatSlots(this.dataStore.selectedWeapon.slots)}
@@ -110,6 +110,7 @@ Lack 2 Slots
 			}
 
 			this.possibleResult = text;
+			this.possibleResultHtml = marked(text);
 		},
 
 		generatePossibleWeaponListReport: function () {
@@ -117,7 +118,7 @@ Lack 2 Slots
 			const ok = this.dataStore.weaponOk;
 			const l1 = this.dataStore.weaponLack1;
 			const l2 = this.dataStore.weaponLack2;
-			let text = `${char.name}
+			let text = `# ${char.name}
 
 Unit Slots:
 - ${char.slots[0]}
@@ -160,6 +161,7 @@ Lack 2 Slots
 			}
 
 			this.possibleResult = text;
+			this.possibleResultHtml = marked(text);
 		},
 
 		restart: function () {

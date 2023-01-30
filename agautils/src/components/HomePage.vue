@@ -19,12 +19,12 @@
 				<label for="proof-of-valor" class="label-right">Proof of Valor</label>
 			</div>
 
-			<div class="part-right">
-				<textarea v-model="resultSlots" rows="14" cols="25" />
-			</div>
-
 			<div class="part-right" style="width: 100%; max-width: 600px;">
 				<img :alt="selectedCharacter" :src="`/img/${selectedCharacter}.jpg`" style="width: 100%;" />
+			</div>
+
+			<div class="part-right">
+				<div v-html="resultSlots" style="margin-right: 2rem"></div>
 			</div>
 		</form>
 	</main>
@@ -44,6 +44,7 @@
 
 <script>
 import { useDataStore } from '@/stores/DataStore';
+import { marked } from 'marked';
 
 export default {
 
@@ -78,7 +79,7 @@ export default {
 		refresh: function () {
 			if (this.selectedCharacter) {
 				const data = this.dataStore.getCharacterData(this.selectedCharacter);
-				let text = `${data.name}
+				let text = `# ${data.name}
 
 Weapons:
 ${this.formatWeaponList(data.weapons)}
@@ -93,11 +94,12 @@ Unit Slots:
 - ${data.slots[5]}
 `;
 				}
-				this.resultSlots = text;
+				this.resultSlots = marked(text);
 			}
 			else {
 				this.resultSlots = "";
 			}
+
 		},
 
 		weapon: function () {
