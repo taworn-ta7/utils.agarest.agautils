@@ -5,7 +5,7 @@
 
 	<main>
 		<select v-model="selectedSkill" @change.prevent="refresh()" size="25">
-			<option v-for="(skill, index) in dataStore.combinationSkillList">
+			<option v-for="(skill, index) in dataStore.combinationSkillList" :value="skill.name">
 				{{ skill.name }} {{ skill.slots.length > 0 ? "(" + skill.slots.join(", ") + ")" : "" }}
 			</option>
 		</select>
@@ -39,7 +39,7 @@ export default {
 	},
 
 	mounted() {
-		this.selectedSkill = this.dataStore.selectedSkill;
+		this.selectedSkill = this.dataStore.selectedSkill ? this.dataStore.selectedSkill.name : null;
 		this.refresh();
 	},
 
@@ -49,7 +49,8 @@ export default {
 
 		next: function () {
 			if (this.selectedSkill) {
-				this.dataStore.selectedSkill = this.selectedSkill;
+				this.dataStore.selectedSkill = this.dataStore.getSkillData(this.selectedSkill);
+				this.dataStore.findPossibleWeapons();
 				this.$router.push('/result')
 			}
 		},

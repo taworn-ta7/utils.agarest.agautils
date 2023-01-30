@@ -37,7 +37,9 @@ export const useDataStore = defineStore({
 		// if selectedUi === 2
 		// selected skill
 		selectedSkill: null,
-		possibleWeapons: null,
+		weaponOk: null,
+		weaponLack1: null,
+		weaponLack2: null,
 
 		// possible result
 		possibleResult: null,
@@ -63,6 +65,27 @@ export const useDataStore = defineStore({
 			for (let i = 0; i < this.weaponGroupList.length; i++) {
 				const name = this.weaponGroupList[i];
 				const doc = this.loadDataFile(`./data/Weapon ${name} List.yaml`);
+				for (let i = 0; i < doc.length; i++) {
+					// adds computation helper
+					const weapon = doc[i];
+					weapon.compute = {
+						Fire: 0,
+						Water: 0,
+						Thunder: 0,
+						Wind: 0,
+						Earth: 0,
+						Dark: 0,
+						Light: 0,
+						Extra: 0,
+						General: 0,
+						Power: 0,
+						Combo: 0,
+						Special: 0,
+					};
+					for (let j = 0; j < weapon.slots.length; j++) {
+						weapon.compute[weapon.slots[j]]++;
+					}
+				}
 				this.weaponGroupDict[name] = doc;
 				for (let i = 0; i < doc.length; i++)
 					this.weaponList.push(doc[i]);
@@ -113,10 +136,13 @@ export const useDataStore = defineStore({
 			return this.weaponList.find((e) => e.key === parseInt(weaponKey));
 		},
 
+		getSkillData(skillName) {
+			return this.combinationSkillList.find((e) => e.name === skillName);
+		},
+
 		// ----------------------------------------------------------------------
 
-		findPossibleSkills() {
-			// computes character + weapon slots
+		createPlayerToCompute() {
 			const player = {
 				Fire: 0,
 				Water: 0,
@@ -140,11 +166,17 @@ export const useDataStore = defineStore({
 				player[slots[4]]++;
 				player[slots[5]]++;
 			}
+			return player;
+		},
+
+		findPossibleSkills() {
+			// computes character + weapon slots
+			const player = this.createPlayerToCompute();
 			const weaponSlots = this.selectedWeapon.slots;
 			for (let i = 0; i < weaponSlots.length; i++) {
 				player[weaponSlots[i]]++;
 			}
-			//console.log(`player #1: ${JSON.stringify(player, null, 2)}`);
+			//console.log(`start compute: ${JSON.stringify(player, null, 2)}`);
 
 			// loop for all combination skills
 			this.skillOk = [];
@@ -168,7 +200,6 @@ export const useDataStore = defineStore({
 					Combo: player.Combo - c.Combo,
 					Special: player.Special - c.Special,
 				};
-				//console.log(`${skill.name}: after compute ${JSON.stringify(p, null, 2)}`);
 
 				// gets result
 				const a = [
@@ -187,8 +218,8 @@ export const useDataStore = defineStore({
 				];
 				if (a.every((v) => v >= 0)) {
 					// this skill is ok
-					//console.log(`${skill.name}: ok`)
-					this.skillOk.push(skill)
+					//console.log(`${skill.name}: ok`);
+					this.skillOk.push(skill);
 				}
 				else {
 					let missing = [];
@@ -204,13 +235,94 @@ export const useDataStore = defineStore({
 						this.skillLack1.push([
 							skill,
 							missing,
-						])
+						]);
 					}
 					else if (missing.length === 2) {
 						this.skillLack2.push([
 							skill,
 							missing,
-						])
+						]);
+					}
+				}
+			}
+		},
+
+		findPossibleWeapons() {
+			// computes character - skill slots
+			const player = this.createPlayerToCompute();
+			const skillSlots = this.selectedSkill.slots;
+			for (let i = 0; i < skillSlots.length; i++) {
+				player[skillSlots[i]]--;
+			}
+			//console.log(`start compute: ${JSON.stringify(player, null, 2)}`);
+
+			// loop for equipable weapons
+			this.weaponOk = [];
+			this.weaponLack1 = [];
+			this.weaponLack2 = [];
+			for (let i = 0; i < this.selectedCharacter.weapons.length; i++) {
+				const group = this.selectedCharacter.weapons[i];
+				for (let j = 0; j < this.weaponGroupDict[group].length; j++) {
+					// computation
+					const weapon = this.weaponGroupDict[group][j];
+					const w = weapon.compute;
+					const p = {
+						Fire: player.Fire + w.Fire,
+						Water: player.Water + w.Water,
+						Thunder: player.Thunder + w.Thunder,
+						Wind: player.Wind + w.Wind,
+						Earth: player.Earth + w.Earth,
+						Dark: player.Dark + w.Dark,
+						Light: player.Light + w.Light,
+						Extra: player.Extra + w.Extra,
+						General: player.General + w.General,
+						Power: player.Power + w.Power,
+						Combo: player.Combo + w.Combo,
+						Special: player.Special + w.Special,
+					};
+
+					// gets result
+					const a = [
+						p.Fire,
+						p.Water,
+						p.Thunder,
+						p.Wind,
+						p.Earth,
+						p.Dark,
+						p.Light,
+						p.Extra,
+						p.General,
+						p.Power,
+						p.Combo,
+						p.Special,
+					];
+					if (a.every((v) => v >= 0)) {
+						// this weapon is ok
+						//console.log(`${weapon.name}: ok`);
+						this.weaponOk.push(weapon);
+					}
+					else {
+						let missing = [];
+						for (let j = 0; j < a.length; j++) {
+							if (a[j] < 0) {
+								const slot = Utils.slotList[j];
+								for (let k = 0; k < -a[j]; k++)
+									missing.push(slot);
+							}
+						}
+						//console.log(`${weapon.name}: lack ${missing}`);
+						if (missing.length === 1) {
+							this.weaponLack1.push([
+								weapon,
+								missing,
+							]);
+						}
+						else if (missing.length === 2) {
+							this.weaponLack2.push([
+								weapon,
+								missing,
+							]);
+						}
 					}
 				}
 			}

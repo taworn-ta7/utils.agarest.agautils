@@ -41,14 +41,14 @@ export default {
 	methods: {
 		refresh: function () {
 			if (this.dataStore.selectedUi === 1) {
-				this.generatePossibleSkillList();
+				this.generatePossibleSkillListReport();
 			}
 			else if (this.dataStore.selectedUi === 2) {
+				this.generatePossibleWeaponListReport();
 			}
 		},
 
-		formatWeaponSlots: function () {
-			const slots = this.dataStore.selectedWeapon.slots;
+		formatSlots: function (slots) {
 			let result = "";
 			for (let i = 0; i < slots.length; i++)
 				result += `- ${slots[i]}
@@ -56,7 +56,7 @@ export default {
 			return result;
 		},
 
-		generatePossibleSkillList: function () {
+		generatePossibleSkillListReport: function () {
 			const char = this.dataStore.selectedCharacter;
 			const ok = this.dataStore.skillOk;
 			const l1 = this.dataStore.skillLack1;
@@ -64,7 +64,7 @@ export default {
 			let text = `${char.name}
 
 Weapon: ${this.dataStore.selectedWeapon.name}
-${this.formatWeaponSlots()}
+${this.formatSlots(this.dataStore.selectedWeapon.slots)}
 Unit Slots:
 - ${char.slots[0]}
 - ${char.slots[1]}
@@ -90,7 +90,6 @@ Lack 1 Slot
 `;
 			for (let i = 0; i < l1.length; i++) {
 				const item = l1[i];
-				console.log(`lack 1: ${JSON.stringify(item)}`)
 				text += `- ${item[0].name} (${item[1][0]})
 `;
 			}
@@ -100,7 +99,56 @@ Lack 2 Slots
 `;
 			for (let i = 0; i < l2.length; i++) {
 				const item = l2[i];
-				console.log(`lack 2: ${JSON.stringify(item)} `)
+				text += `- ${item[0].name} (${item[1][0]}, ${item[1][1]})
+`;
+			}
+
+			this.possibleResult = text;
+		},
+
+		generatePossibleWeaponListReport: function () {
+			const char = this.dataStore.selectedCharacter;
+			const ok = this.dataStore.weaponOk;
+			const l1 = this.dataStore.weaponLack1;
+			const l2 = this.dataStore.weaponLack2;
+			let text = `${char.name}
+
+Unit Slots:
+- ${char.slots[0]}
+- ${char.slots[1]}
+- ${char.slots[2]}
+- ${char.slots[3]}
+`;
+			if (this.dataStore.proofOfValor) {
+				text += `- ${char.slots[4]}
+- ${char.slots[5]}
+`;
+			}
+
+			text += `
+Skill: ${this.dataStore.selectedSkill.name}
+${this.formatSlots(this.dataStore.selectedSkill.slots)}
+Can Use Weapon(s):
+`;
+			for (let i = 0; i < ok.length; i++) {
+				text += `- ${ok[i].name}
+`;
+			}
+
+			text += `
+Lack 1 Slot
+`;
+			for (let i = 0; i < l1.length; i++) {
+				const item = l1[i];
+				text += `- ${item[0].name} (${item[1][0]})
+`;
+			}
+
+			text += `
+Lack 2 Slots
+`;
+			for (let i = 0; i < l2.length; i++) {
+				const item = l2[i];
 				text += `- ${item[0].name} (${item[1][0]}, ${item[1][1]})
 `;
 			}

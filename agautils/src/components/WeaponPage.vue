@@ -7,7 +7,7 @@
 		<select v-model="selectedWeapon" @change.prevent="refresh()" size="25">
 			<optgroup v-for="(group, index) in dataStore.selectedCharacter.weapons" :label="group">
 				<option v-for="(weapon, index) in dataStore.weaponGroupDict[group]" :value="weapon.key">
-					<span>{{ weapon.key + ": " + weapon.name }} {{
+					<span>{{ weapon.name }} {{
 						weapon.slots.length > 0 ? "(" + weapon.slots.join(", ") + ")" : ""
 					}}</span>
 				</option>
