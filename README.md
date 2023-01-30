@@ -4,6 +4,8 @@ One day, I've playing game [Agarest](https://en.wikipedia.org/wiki/Record_of_Aga
 
 I'm a programmer and I think I will write a utility.  I'm thinking about programming tool and it fit with I want to try writing on [nw.js](https://nwjs.io), and, it's answer: AgaUtils.
 
+One thing but sorry, application that build by nw is quite large, very large. :|
+
 # AgaUtils
 
 A simple utility with this step:
@@ -24,7 +26,7 @@ Currently, it's run on 2023/01/30.
 
 If you just want to run program and on Windows platform, just download file:
 
-	[releases/agautils-1.0.0-win-x86.7z](releases/agautils-1.0.0-win-x86.7z)
+[releases/agautils-1.0.0-win-x86.7z](./releases/agautils-1.0.0-win-x86.7z)
 
 Extract and run agautils.exe.
 
