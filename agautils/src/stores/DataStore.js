@@ -54,7 +54,7 @@ export const useDataStore = defineStore({
 			this.characterList = [];
 			for (let i = 0; i < Utils.characterList.length; i++) {
 				const name = Utils.characterList[i];
-				const doc = this.loadDataFile(`./public/data/Character ${name}.yaml`);
+				const doc = this.loadDataFile(`./data/Character ${name}.yaml`);
 				this.characterList.push(doc);
 			}
 
@@ -64,7 +64,7 @@ export const useDataStore = defineStore({
 			this.weaponGroupDict = {};
 			for (let i = 0; i < this.weaponGroupList.length; i++) {
 				const name = this.weaponGroupList[i];
-				const doc = this.loadDataFile(`./public/data/Weapon ${name} List.yaml`);
+				const doc = this.loadDataFile(`./data/Weapon ${name} List.yaml`);
 				for (let i = 0; i < doc.length; i++) {
 					// adds computation helper
 					const weapon = doc[i];
@@ -92,7 +92,7 @@ export const useDataStore = defineStore({
 			}
 
 			// loads combination skills
-			const doc = this.loadDataFile(`./public/data/Combination Skill List.yaml`);
+			const doc = this.loadDataFile(`./data/Combination Skill List.yaml`);
 			this.combinationSkillList = doc;
 			for (let i = 0; i < this.combinationSkillList.length; i++) {
 				// adds computation helper
