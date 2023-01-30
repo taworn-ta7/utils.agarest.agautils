@@ -4,20 +4,25 @@
 	</header>
 
 	<main>
-		<select v-model="selectedSkill" @change.prevent="refresh()" size="25">
-			<option v-for="(skill, index) in dataStore.combinationSkillList" :value="skill.name">
-				{{ skill.name }} {{ skill.slots.length > 0 ? "(" + skill.slots.join(", ") + ")" : "" }}
-			</option>
-		</select>
-		<br />
-
-		<button @click.prevent="back()">
-			Back
-		</button>
-		<button @click.prevent="next()">
-			Next
-		</button>
+		<form class="container flex-row">
+			<div style="width: 100%;">
+				<select v-model="selectedSkill" @change.prevent="refresh()" size="14" style="width: 100%;">
+					<option v-for="(skill, index) in dataStore.combinationSkillList" :value="skill.name">
+						{{ skill.name }} {{ skill.slots.length > 0 ? "(" + skill.slots.join(", ") + ")" : "" }}
+					</option>
+				</select>
+			</div>
+		</form>
 	</main>
+
+	<footer>
+		<span>
+			<button @click.prevent="back()">Back</button>
+		</span>
+		<span>
+			<button @click.prevent="next()">Next</button>
+		</span>
+	</footer>
 </template>
 
 
@@ -66,7 +71,5 @@ export default {
 
 
 <style scoped>
-header {
-	line-height: 1.5;
-}
+
 </style>

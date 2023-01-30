@@ -5,15 +5,16 @@
 
 	<main>
 		<textarea v-model="possibleResult" rows="25" cols="50" />
-		<br />
-
-		<button @click.prevent="back()">
-			Back
-		</button>
-		<button @click.prevent="save()">
-			Save
-		</button>
 	</main>
+
+	<footer>
+		<span>
+			<button @click.prevent="back()">Back</button>
+		</span>
+		<span>
+			<button @click.prevent="save()">Save</button>
+		</span>
+	</footer>
 </template>
 
 
@@ -171,7 +172,5 @@ Lack 2 Slots
 
 
 <style scoped>
-header {
-	line-height: 1.5;
-}
+
 </style>

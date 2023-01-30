@@ -118,6 +118,8 @@
         "height": 600,
         "min_width": 700,
         "min_height": 500,
+        "max_width": 960,
+        "max_height": 600,
         "icon": "dist-vue/icon.png"
       }
     },

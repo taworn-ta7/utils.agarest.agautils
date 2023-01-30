@@ -4,24 +4,29 @@
 	</header>
 
 	<main>
-		<select v-model="selectedWeapon" @change.prevent="refresh()" size="25">
-			<optgroup v-for="(group, index) in dataStore.selectedCharacter.weapons" :label="group">
-				<option v-for="(weapon, index) in dataStore.weaponGroupDict[group]" :value="weapon.key">
-					<span>{{ weapon.name }} {{
-						weapon.slots.length > 0 ? "(" + weapon.slots.join(", ") + ")" : ""
-					}}</span>
-				</option>
-			</optgroup>
-		</select>
-		<br />
-
-		<button @click.prevent="back()">
-			Back
-		</button>
-		<button @click.prevent="next()">
-			Next
-		</button>
+		<form class="container flex-row">
+			<div style="width: 100%;">
+				<select v-model="selectedWeapon" @change.prevent="refresh()" size="14" style="width: 100%;">
+					<optgroup v-for="(group, index) in dataStore.selectedCharacter.weapons" :label="group">
+						<option v-for="(weapon, index) in dataStore.weaponGroupDict[group]" :value="weapon.key">
+							<span>{{ weapon.name }} {{
+								weapon.slots.length > 0 ? "(" + weapon.slots.join(", ") + ")" : ""
+							}}</span>
+						</option>
+					</optgroup>
+				</select>
+			</div>
+		</form>
 	</main>
+
+	<footer>
+		<span>
+			<button @click.prevent="back()">Back</button>
+		</span>
+		<span>
+			<button @click.prevent="next()">Next</button>
+		</span>
+	</footer>
 </template>
 
 
@@ -70,7 +75,5 @@ export default {
 
 
 <style scoped>
-header {
-	line-height: 1.5;
-}
+
 </style>

@@ -4,31 +4,40 @@
 	</header>
 
 	<main>
-		<select v-model="selectedCharacter" @change.prevent="refresh()">
-			<option v-for="(character, index) in dataStore.characterList">{{
-				character.name
-			}}
-			</option>
-		</select>
-		<br />
+		<form class="container flex-row">
+			<div>
+				<div style="width: 10rem;">
+					<select v-model="selectedCharacter" @change.prevent="refresh()" size="12" style="width: 100%;">
+						<option v-for="(character, index) in dataStore.characterList">{{
+							character.name
+						}}
+						</option>
+					</select>
+				</div>
 
-		<input type="checkbox" v-model="proofOfValor" id="proof-of-valor" @change.prevent="refresh()" />
-		<label for="proof-of-valor">Proof of Valor</label>
-		<br />
+				<input type="checkbox" v-model="proofOfValor" id="proof-of-valor" @change.prevent="refresh()" />
+				<label for="proof-of-valor" class="label-right">Proof of Valor</label>
+			</div>
 
-		<textarea v-model="resultSlots" rows="14" cols="40" />
-		<br />
+			<div class="part-right">
+				<textarea v-model="resultSlots" rows="14" cols="25" />
+			</div>
 
-		<button @click.prevent="exit()">
-			Exit
-		</button>
-		<button @click.prevent="weapon()">
-			Choose Weapon
-		</button>
-		<button @click.prevent="skill()">
-			Choose Skill
-		</button>
+			<div class="part-right" style="width: 100%; max-width: 600px;">
+				<img :alt="selectedCharacter" :src="`/img/${selectedCharacter}.jpg`" style="width: 100%;" />
+			</div>
+		</form>
 	</main>
+
+	<footer>
+		<span>
+			<button @click.prevent="exit()">Exit</button>
+		</span>
+		<span>
+			<button @click.prevent="weapon()">Choose Weapon</button>
+			<button @click.prevent="skill()">Choose Skill</button>
+		</span>
+	</footer>
 </template>
 
 
@@ -122,7 +131,5 @@ Unit Slots:
 
 
 <style scoped>
-header {
-	line-height: 1.5;
-}
+
 </style>

@@ -1,8 +1,84 @@
 @import './base.css';
 
-#app {
-  max-width: 1280px;
-  margin: 0px auto;
-  padding: 2rem;
-  font-weight: normal;
+#body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+header {
+	padding: 0.5rem 1rem 0.5rem;
+	font-size: 125%;
+	background-color: #369;
+	color: #fff;
+}
+
+main {
+	padding: 1rem 1rem;
+	flex: 1 0;
+}
+
+footer {
+	padding: 0rem 1rem 1rem;
+	display: flex;
+}
+
+footer> :first-child {
+	flex: 0 0;
+}
+
+footer>::first-child>button {
+	margin-right: 0.5rem;
+}
+
+footer> :not(:first-child) {
+	flex: 1 0;
+	text-align: right;
+}
+
+footer>:not(:first-child)>button {
+	margin-left: 0.5rem;
+}
+
+footer>*>button {
+	font-size: 110%;
+}
+
+.container {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.label-right {
+	margin-left: 0.25rem;
+}
+
+.part-right {
+	margin-left: 1rem;
+}
+
+optgroup {
+	padding: 0.5rem 0.5rem;
+	background-color: #69c;
+	color: #fff;
+}
+
+option {
+	padding: 0.5rem 0.5rem;
+	color: #000;
+}
+
+option:nth-child(odd) {
+	background-color: #fff;
+}
+
+option:nth-child(even) {
+	background-color: #eee;
 }
