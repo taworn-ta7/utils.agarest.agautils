@@ -20,9 +20,64 @@ Please note that, program will extract data from Agarest Wiki and it's might be 
 
 Currently, it's run on 2023/01/30.
 
+# Running
+
+If you just want to run program and on Windows platform, just download file:
+
+	[releases/agautils-1.0.0-win-x86.7z](releases/agautils-1.0.0-win-x86.7z)
+
+Extract and run agautils.exe.
+
+# Run From Source
+
+If you want to compile and run program from source.  You need [node.js](https://nodejs.org).
+
+First, change to directory:
+
+	cd <Repository>/agautils
+
+Download modules:
+
+	npm i
+
+Then, run:
+
+	npm start
+
+If you want to build packages:
+
+	npm run build
+
+# Run AgaGen
+
+It's no need to run AgaGen since it's extracted and copied data to AgaUtils.  But, if you want to run.
+
+First, change to directory:
+
+	cd <Repository>/agagen
+
+Download modules:
+
+	npm i
+
+Then, run:
+
+	npm start
+
+After run program, the generate data will be save to directory ./out.
+
+You have to copy files to <Repository>/agautils/data.
+
+# Screenshots
+
+Here are some screenshots:
+
+[![SS1](./screenshots/thumbnails/1.png)](./screenshots/normals/1.png) | [![SS2](./screenshots/thumbnails/2.png)](./screenshots/normals/2.png)
+[![SS3](./screenshots/thumbnails/3.png)](./screenshots/normals/3.png) | [![SS4](./screenshots/thumbnails/4.png)](./screenshots/normals/4.png)
+
 # Thank
 
-for Vue template: https://github.com/nwutils
+for Vue template: https://github.com/nwutils.
 
 # Last
 
