@@ -5,10 +5,9 @@
 
 	<main>
 		<select v-model="selectedWeapon" @change.prevent="refresh()" size="25">
-			<optgroup v-for="(group, index) in dataStore.getCharacterData(dataStore.selectedCharacter).weapons"
-				:label="group">
-				<option v-for="(weapon, index) in dataStore.weaponGroupDict[group]">
-					<span>{{ weapon.name }} {{
+			<optgroup v-for="(group, index) in dataStore.selectedCharacter.weapons" :label="group">
+				<option v-for="(weapon, index) in dataStore.weaponGroupDict[group]" :value="weapon.key">
+					<span>{{ weapon.key + ": " + weapon.name }} {{
 						weapon.slots.length > 0 ? "(" + weapon.slots.join(", ") + ")" : ""
 					}}</span>
 				</option>
@@ -44,7 +43,7 @@ export default {
 	},
 
 	mounted() {
-		this.selectedWeapon = this.dataStore.selectedWeapon;
+		this.selectedWeapon = this.dataStore.selectedWeapon ? this.dataStore.selectedWeapon.key : null;
 		this.refresh();
 	},
 
@@ -54,7 +53,8 @@ export default {
 
 		next: function () {
 			if (this.selectedWeapon) {
-				this.dataStore.selectedWeapon = this.selectedWeapon;
+				this.dataStore.selectedWeapon = this.dataStore.getWeaponData(this.selectedWeapon);
+				this.dataStore.findPossibleSkills();
 				this.$router.push('/result')
 			}
 		},

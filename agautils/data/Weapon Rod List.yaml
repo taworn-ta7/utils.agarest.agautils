@@ -1,195 +1,273 @@
-- name: Iron Rod
+- key: 160
+  name: Iron Rod
+  type: Rod
   slots: []
-- name: Broom Wand
+- key: 161
+  name: Broom Wand
+  type: Rod
   slots:
     - Light
-- name: Hammer
+- key: 162
+  name: Hammer
+  type: Rod
   slots:
     - Power
-- name: Staff of Healing
+- key: 163
+  name: Staff of Healing
+  type: Rod
   slots:
     - Earth
     - Light
-- name: Silver Rod
+- key: 164
+  name: Silver Rod
+  type: Rod
   slots:
     - Special
     - Earth
-- name: Spiked Hammer
+- key: 165
+  name: Spiked Hammer
+  type: Rod
   slots:
     - Power
     - Extra
-- name: Staff of Blessing
+- key: 166
+  name: Staff of Blessing
+  type: Rod
   slots:
     - Light
     - Light
     - Extra
-- name: Mystic
+- key: 167
+  name: Mystic
+  type: Rod
   slots:
     - Dark
     - Dark
     - Extra
-- name: Flame Rod
+- key: 168
+  name: Flame Rod
+  type: Rod
   slots:
     - Fire
     - Fire
     - Fire
-- name: Ice Rod
+- key: 169
+  name: Ice Rod
+  type: Rod
   slots:
     - Water
     - Water
     - Water
-- name: Rising Rod
+- key: 170
+  name: Rising Rod
+  type: Rod
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Gale Spike
+- key: 171
+  name: Gale Spike
+  type: Rod
   slots:
     - Wind
     - Wind
     - Wind
-- name: Cradle Wand
+- key: 172
+  name: Cradle Wand
+  type: Rod
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Rod
+- key: 173
+  name: Platinum Rod
+  type: Rod
   slots:
     - Special
     - Power
     - Earth
-- name: Sledge Hammer
+- key: 174
+  name: Sledge Hammer
+  type: Rod
   slots:
     - Power
     - Power
     - Extra
-- name: Magic Blade
+- key: 175
+  name: Magic Blade
+  type: Rod
   slots:
     - Dark
     - Light
     - Extra
-- name: Luna's Wand
+- key: 176
+  name: Luna's Wand
+  type: Rod
   slots:
     - Earth
     - Light
     - Light
-- name: Calamity Spike
+- key: 177
+  name: Calamity Spike
+  type: Rod
   slots:
     - Power
     - Power
     - Earth
-- name: Mithril Rod
+- key: 178
+  name: Mithril Rod
+  type: Rod
   slots:
     - Special
     - Power
     - Earth
-- name: Crusher
+- key: 179
+  name: Crusher
+  type: Rod
   slots:
     - Power
     - Power
     - Extra
-- name: Madu
+- key: 180
+  name: Madu
+  type: Rod
   slots:
     - Power
     - Power
     - Dark
-- name: Katoyanga
+- key: 181
+  name: Katoyanga
+  type: Rod
   slots:
     - Special
     - Power
     - Power
-- name: Cat's Eye
+- key: 182
+  name: Cat's Eye
+  type: Rod
   slots:
     - Fire
     - Water
     - Extra
-- name: Mist Wand
+- key: 183
+  name: Mist Wand
+  type: Rod
   slots:
     - Dark
     - Dark
     - Extra
-- name: Ray Blade
+- key: 184
+  name: Ray Blade
+  type: Rod
   slots:
     - Light
     - Light
     - Extra
-- name: Orichalcum Rod
+- key: 185
+  name: Orichalcum Rod
+  type: Rod
   slots:
     - Special
     - Special
     - Power
-- name: Cursed Eye
-  slots:
-    - Water
-    - Thunder
-    - Dark
-- name: Skull Staff
-  slots:
-    - Fire
-    - Earth
-    - Dark
-    - Extra
-- name: Artemis
-  slots:
-    - Thunder
-    - Wind
-    - Earth
-    - Extra
-- name: Holy Rod
-  slots:
-    - Special
-    - Light
-    - Light
-    - Extra
-- name: Earth Shaker
-  slots:
-    - Power
-    - Power
-    - Earth
-    - Earth
-- name: Material Wand
-  slots:
-    - Fire
-    - Light
-    - Dark
-    - Extra
-- name: Caduceus
+- key: 186
+  name: Cursed Eye
+  type: Rod
   slots:
     - Water
     - Thunder
+    - Dark
+- key: 187
+  name: Skull Staff
+  type: Rod
+  slots:
+    - Fire
+    - Earth
+    - Dark
+    - Extra
+- key: 188
+  name: Artemis
+  type: Rod
+  slots:
+    - Thunder
+    - Wind
     - Earth
     - Extra
-- name: Gridarvolr
+- key: 189
+  name: Holy Rod
+  type: Rod
+  slots:
+    - Special
+    - Light
+    - Light
+    - Extra
+- key: 190
+  name: Earth Shaker
+  type: Rod
+  slots:
+    - Power
+    - Power
+    - Earth
+    - Earth
+- key: 191
+  name: Material Wand
+  type: Rod
+  slots:
+    - Fire
+    - Light
+    - Dark
+    - Extra
+- key: 192
+  name: Caduceus
+  type: Rod
+  slots:
+    - Water
+    - Thunder
+    - Earth
+    - Extra
+- key: 193
+  name: Gridarvolr
+  type: Rod
   slots:
     - Power
     - Power
     - Wind
     - Earth
-- name: Kounodaki
+- key: 194
+  name: Kounodaki
+  type: Rod
   slots:
     - Special
     - Special
     - Power
     - Power
-- name: Cat Punch
+- key: 195
+  name: Cat Punch
+  type: Rod
   slots:
     - Power
     - Wind
     - Light
     - Extra
-- name: Rodriguez III
+- key: 196
+  name: Rodriguez III
+  type: Rod
   slots:
     - Water
     - Earth
     - Light
     - Extra
-- name: Calinou's Hammer
+- key: 197
+  name: Calinou's Hammer
+  type: Rod
   slots:
     - Fire
     - Dark
     - Light
     - Extra
-- name: Nemesis
+- key: 198
+  name: Nemesis
+  type: Rod
   slots:
     - Thunder
     - Dark

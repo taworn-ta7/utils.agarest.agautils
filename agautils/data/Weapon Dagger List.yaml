@@ -1,195 +1,271 @@
-- name: Iron Knife
+- key: 84
+  name: Iron Knife
+  type: Dagger
   slots:
     - Combo
-- name: Baselard
+- key: 85
+  name: Baselard
+  type: Dagger
   slots:
     - Combo
     - Thunder
     - Wind
-- name: Silver Knife
+- key: 86
+  name: Silver Knife
+  type: Dagger
   slots:
     - Combo
-- name: Rondel Dagger
+- key: 87
+  name: Rondel Dagger
+  type: Dagger
   slots:
     - Combo
     - Special
-- name: Lucky Dagger
+- key: 88
+  name: Lucky Dagger
+  type: Dagger
   slots:
     - Special
     - Light
     - Extra
-- name: Shield Sword
+- key: 89
+  name: Shield Sword
+  type: Dagger
   slots:
     - Combo
     - Earth
-- name: Kokihi
+- key: 90
+  name: Kokihi
+  type: Dagger
   slots:
     - Fire
     - Fire
     - Fire
-- name: Seihiki
+- key: 91
+  name: Seihiki
+  type: Dagger
   slots:
     - Water
     - Water
     - Water
-- name: Dokko
+- key: 92
+  name: Dokko
+  type: Dagger
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Urayanagi
+- key: 93
+  name: Urayanagi
+  type: Dagger
   slots:
     - Wind
     - Wind
     - Wind
-- name: Kuchiba
+- key: 94
+  name: Kuchiba
+  type: Dagger
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Knife
+- key: 95
+  name: Platinum Knife
+  type: Dagger
   slots:
     - Combo
     - Combo
-- name: Stiletto
+- key: 96
+  name: Stiletto
+  type: Dagger
   slots:
     - Combo
     - Special
     - Fire
-- name: Sword Breaker
+- key: 97
+  name: Sword Breaker
+  type: Dagger
   slots:
     - Special
     - Special
     - Extra
-- name: Triple Dagger
+- key: 98
+  name: Triple Dagger
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Combo
-- name: Hunter's Blade
+- key: 99
+  name: Hunter's Blade
+  type: Dagger
   slots:
     - Combo
     - Special
     - Earth
-- name: Mithril Knife
+- key: 100
+  name: Mithril Knife
+  type: Dagger
   slots:
     - Combo
     - Combo
-- name: Gladius
+- key: 101
+  name: Gladius
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Special
-- name: Follow Knife
+- key: 102
+  name: Follow Knife
+  type: Dagger
   slots:
     - Combo
     - Fire
     - Wind
-- name: Rising Edge
+- key: 103
+  name: Rising Edge
+  type: Dagger
   slots:
     - Special
     - Thunder
     - Earth
-- name: Enchanted Knife
+- key: 104
+  name: Enchanted Knife
+  type: Dagger
   slots:
     - Water
     - Dark
     - Light
     - Extra
-- name: Mugen's Claw
+- key: 105
+  name: Mugen's Claw
+  type: Dagger
   slots:
     - Special
     - Earth
     - Dark
-- name: Split Sword
+- key: 106
+  name: Split Sword
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Special
-- name: Orichalcum Knife
+- key: 107
+  name: Orichalcum Knife
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Special
-- name: Spiral Claw
+- key: 108
+  name: Spiral Claw
+  type: Dagger
   slots:
     - Special
     - Special
     - Wind
     - Dark
-- name: Blood Red
+- key: 109
+  name: Blood Red
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Fire
     - Earth
-- name: Aerial Knife
+- key: 110
+  name: Aerial Knife
+  type: Dagger
   slots:
     - Special
     - Special
     - Thunder
     - Wind
-- name: Ten-blade
+- key: 111
+  name: Ten-blade
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Combo
     - Special
-- name: Kogarasumaru
+- key: 112
+  name: Kogarasumaru
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Special
     - Wind
-- name: Krishna
+- key: 113
+  name: Krishna
+  type: Dagger
   slots:
     - Combo
     - Special
     - Fire
     - Thunder
-- name: Curtana
+- key: 114
+  name: Curtana
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Dark
     - Light
-- name: Ridill
+- key: 115
+  name: Ridill
+  type: Dagger
   slots:
     - Special
     - Wind
     - Dark
     - Extra
-- name: Hrunting
+- key: 116
+  name: Hrunting
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Special
     - Light
-- name: Silpheed
+- key: 117
+  name: Silpheed
+  type: Dagger
   slots:
     - Combo
     - Special
     - Wind
     - Wind
-- name: Avenir
+- key: 118
+  name: Avenir
+  type: Dagger
   slots:
     - Fire
     - Thunder
     - Dark
     - Extra
-- name: Aqua Chrome
+- key: 119
+  name: Aqua Chrome
+  type: Dagger
   slots:
     - Water
     - Earth
     - Light
     - Extra
-- name: Brave Hunter
+- key: 120
+  name: Brave Hunter
+  type: Dagger
   slots:
     - Combo
     - Combo
     - Special
     - Extra
-- name: Bontenmaru
+- key: 121
+  name: Bontenmaru
+  type: Dagger
   slots:
     - Combo
     - Combo

@@ -1,262 +1,366 @@
-- name: Rusty Sword
+- key: 3
+  name: Rusty Sword
+  type: Sword
   slots: []
-- name: Iron Sword
+- key: 4
+  name: Iron Sword
+  type: Sword
   slots: []
-- name: Fleuret
+- key: 5
+  name: Fleuret
+  type: Sword
   slots:
     - Combo
-- name: Long Sword
+- key: 6
+  name: Long Sword
+  type: Sword
   slots:
     - Fire
     - Extra
-- name: Spata
+- key: 7
+  name: Spata
+  type: Sword
   slots:
     - General
     - Wind
     - Extra
-- name: Silver Sword
+- key: 8
+  name: Silver Sword
+  type: Sword
   slots:
     - General
-- name: Rapier
+- key: 9
+  name: Rapier
+  type: Sword
   slots:
     - General
     - Combo
-- name: Crush Sword
+- key: 10
+  name: Crush Sword
+  type: Sword
   slots:
     - Fire
     - Earth
     - Extra
-- name: Mauler Blade
+- key: 11
+  name: Mauler Blade
+  type: Sword
   slots:
     - Earth
     - Light
     - Extra
-- name: Chozurimaru
+- key: 12
+  name: Chozurimaru
+  type: Sword
   slots:
     - General
     - General
     - Earth
-- name: Fireseal Sword
+- key: 13
+  name: Fireseal Sword
+  type: Sword
   slots:
     - Fire
     - Fire
     - Fire
-- name: Iceseal Sword
+- key: 14
+  name: Iceseal Sword
+  type: Sword
   slots:
     - Water
     - Water
     - Water
-- name: Thunderseal Sword
+- key: 15
+  name: Thunderseal Sword
+  type: Sword
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Windseal Sword
+- key: 16
+  name: Windseal Sword
+  type: Sword
   slots:
     - Wind
     - Wind
     - Wind
-- name: Earthseal Sword
+- key: 17
+  name: Earthseal Sword
+  type: Sword
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Sword
+- key: 18
+  name: Platinum Sword
+  type: Sword
   slots:
     - General
     - General
-- name: Owl Rapier
+- key: 19
+  name: Owl Rapier
+  type: Sword
   slots:
     - General
     - Combo
-- name: Damascus Sword
+- key: 20
+  name: Damascus Sword
+  type: Sword
   slots:
     - General
     - General
     - Dark
-- name: Reverse Katana
+- key: 21
+  name: Reverse Katana
+  type: Sword
   slots:
     - General
     - Combo
     - Combo
-- name: Unicorn Sword
+- key: 22
+  name: Unicorn Sword
+  type: Sword
   slots:
     - Water
     - Earth
     - Light
-- name: Phantom Sword
+- key: 23
+  name: Phantom Sword
+  type: Sword
   slots:
     - General
     - Dark
     - Dark
-- name: Light Bringer
+- key: 24
+  name: Light Bringer
+  type: Sword
   slots:
     - Combo
     - Light
     - Light
-- name: Mithril Sword
+- key: 25
+  name: Mithril Sword
+  type: Sword
   slots:
     - General
     - General
-- name: Estoc
+- key: 26
+  name: Estoc
+  type: Sword
   slots:
     - General
     - Combo
-- name: Sword of Kings
+- key: 27
+  name: Sword of Kings
+  type: Sword
   slots:
     - General
     - General
     - Extra
-- name: Flamberg
+- key: 28
+  name: Flamberg
+  type: Sword
   slots:
     - General
     - Fire
     - Fire
-- name: Bloody Sword
+- key: 29
+  name: Bloody Sword
+  type: Sword
   slots:
     - General
     - Earth
     - Dark
     - Dark
-- name: Holy Beast Sword
+- key: 30
+  name: Holy Beast Sword
+  type: Sword
   slots:
     - Combo
     - Wind
     - Light
     - Light
-- name: Midnight Sun
+- key: 31
+  name: Midnight Sun
+  type: Sword
   slots:
     - Combo
     - Dark
     - Light
-- name: Meteorite Sword
+- key: 32
+  name: Meteorite Sword
+  type: Sword
   slots:
     - General
     - Combo
     - Light
     - Extra
-- name: Orichalcum Sword
+- key: 33
+  name: Orichalcum Sword
+  type: Sword
   slots:
     - General
     - General
     - Combo
-- name: Avenger
+- key: 34
+  name: Avenger
+  type: Sword
   slots:
     - General
     - Combo
     - Combo
-- name: Durandal
+- key: 35
+  name: Durandal
+  type: Sword
   slots:
     - General
     - General
     - Earth
-- name: Material Sword
+- key: 36
+  name: Material Sword
+  type: Sword
   slots:
     - Dark
     - Light
     - Extra
     - Extra
-- name: Kaiser Sword
+- key: 37
+  name: Kaiser Sword
+  type: Sword
   slots:
     - General
     - General
     - Combo
     - Extra
-- name: Anglachel
+- key: 38
+  name: Anglachel
+  type: Sword
   slots:
     - General
     - General
     - Dark
-- name: Dainslaif
+- key: 39
+  name: Dainslaif
+  type: Sword
   slots:
     - General
     - General
     - Thunder
-- name: Hinokagutsuti
+- key: 40
+  name: Hinokagutsuti
+  type: Sword
   slots:
     - General
     - General
     - Fire
     - Fire
-- name: Futsunomitama
+- key: 41
+  name: Futsunomitama
+  type: Sword
   slots:
     - General
     - General
     - Light
     - Extra
-- name: Moonlight Sword
+- key: 42
+  name: Moonlight Sword
+  type: Sword
   slots:
     - Combo
     - Wind
     - Earth
     - Light
-- name: Eye Burner
+- key: 43
+  name: Eye Burner
+  type: Sword
   slots:
     - Fire
     - Thunder
     - Wind
     - Extra
-- name: Onikirimaru
+- key: 44
+  name: Onikirimaru
+  type: Sword
   slots:
     - Water
     - Earth
     - Dark
     - Light
-- name: Asura
+- key: 45
+  name: Asura
+  type: Sword
   slots:
     - General
     - General
     - Combo
     - Combo
-- name: Gram
+- key: 46
+  name: Gram
+  type: Sword
   slots:
     - General
     - General
     - General
     - Dark
-- name: Rapid Sword
+- key: 47
+  name: Rapid Sword
+  type: Sword
   slots:
     - Combo
     - Combo
     - Extra
     - Extra
-- name: Rune Blade
+- key: 48
+  name: Rune Blade
+  type: Sword
   slots:
     - Dark
     - Light
     - Light
     - Extra
-- name: Earendil
+- key: 49
+  name: Earendil
+  type: Sword
   slots:
     - Wind
     - Light
     - Light
     - Extra
-- name: Soul Breaker
+- key: 50
+  name: Soul Breaker
+  type: Sword
   slots:
     - General
     - General
     - Combo
     - Combo
-- name: Princess's Sword
+- key: 51
+  name: Princess's Sword
+  type: Sword
   slots:
     - Combo
     - Combo
     - Light
     - Extra
-- name: Leo's Sword
+- key: 52
+  name: Leo's Sword
+  type: Sword
   slots:
     - General
     - General
     - Combo
     - Combo
-- name: Eyes of Death
+- key: 53
+  name: Eyes of Death
+  type: Sword
   slots:
     - General
     - General
     - Thunder
     - Dark
-- name: Shining Light
+- key: 54
+  name: Shining Light
+  type: Sword
   slots:
     - General
     - General

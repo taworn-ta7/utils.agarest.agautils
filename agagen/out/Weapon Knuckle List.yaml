@@ -1,165 +1,231 @@
-- name: Iron Knuckles
+- key: 201
+  name: Iron Knuckles
+  type: Knuckle
   slots: []
-- name: Bone Knuckles
+- key: 202
+  name: Bone Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Dark
-- name: Silver Knuckles
+- key: 203
+  name: Silver Knuckles
+  type: Knuckle
   slots:
     - Combo
-- name: Gold Finger
+- key: 204
+  name: Gold Finger
+  type: Knuckle
   slots:
     - Combo
     - Power
     - Earth
-- name: Adaka
+- key: 205
+  name: Adaka
+  type: Knuckle
   slots:
     - Power
     - Thunder
-- name: Flame Knuckles
+- key: 206
+  name: Flame Knuckles
+  type: Knuckle
   slots:
     - Fire
     - Fire
     - Fire
-- name: Ice Hand
+- key: 207
+  name: Ice Hand
+  type: Knuckle
   slots:
     - Water
     - Water
     - Water
-- name: Thunder Bagh Nakh
+- key: 208
+  name: Thunder Bagh Nakh
+  type: Knuckle
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Air Break
+- key: 209
+  name: Air Break
+  type: Knuckle
   slots:
     - Wind
     - Wind
     - Wind
-- name: Gaia Claw
+- key: 210
+  name: Gaia Claw
+  type: Knuckle
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Knuckles
+- key: 211
+  name: Platinum Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Combo
-- name: Chain Knuckles
+- key: 212
+  name: Chain Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Power
     - Power
-- name: Inescapable Grasp
+- key: 213
+  name: Inescapable Grasp
+  type: Knuckle
   slots:
     - Combo
     - Power
     - Thunder
-- name: Jamadhar
+- key: 214
+  name: Jamadhar
+  type: Knuckle
   slots:
     - Combo
     - Power
     - Dark
-- name: Ogre Claw
+- key: 215
+  name: Ogre Claw
+  type: Knuckle
   slots:
     - Power
     - Power
     - Fire
-- name: Mithril Knuckles
+- key: 216
+  name: Mithril Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Combo
-- name: Ymir's Claw
+- key: 217
+  name: Ymir's Claw
+  type: Knuckle
   slots:
     - Combo
     - Thunder
     - Earth
-- name: Magic Hand
+- key: 218
+  name: Magic Hand
+  type: Knuckle
   slots:
     - Dark
     - Light
     - Extra
-- name: Gatling Knuckles
+- key: 219
+  name: Gatling Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Combo
     - Fire
-- name: Decayed Claw
+- key: 220
+  name: Decayed Claw
+  type: Knuckle
   slots:
     - Dark
     - Dark
     - Extra
-- name: Dragon Claw
+- key: 221
+  name: Dragon Claw
+  type: Knuckle
   slots:
     - Power
     - Power
     - Fire
-- name: O-Knuckles
+- key: 222
+  name: O-Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Combo
     - Power
-- name: Dark Finger
+- key: 223
+  name: Dark Finger
+  type: Knuckle
   slots:
     - Combo
     - Dark
     - Dark
     - Extra
-- name: Saint Hand
+- key: 224
+  name: Saint Hand
+  type: Knuckle
   slots:
     - Combo
     - Light
     - Light
     - Extra
-- name: Starlight
+- key: 225
+  name: Starlight
+  type: Knuckle
   slots:
     - Combo
     - Power
     - Light
     - Extra
-- name: Genbu's Gauntlet
+- key: 226
+  name: Genbu's Gauntlet
+  type: Knuckle
   slots:
     - Power
     - Power
     - Water
     - Earth
-- name: Naglfar
+- key: 227
+  name: Naglfar
+  type: Knuckle
   slots:
     - Combo
     - Combo
     - Dark
     - Dark
-- name: Rekka
+- key: 228
+  name: Rekka
+  type: Knuckle
   slots:
     - Power
     - Fire
     - Wind
     - Earth
-- name: Retsurai
+- key: 229
+  name: Retsurai
+  type: Knuckle
   slots:
     - Combo
     - Water
     - Thunder
     - Wind
-- name: Glory
+- key: 230
+  name: Glory
+  type: Knuckle
   slots:
     - Combo
     - Light
     - Light
     - Extra
-- name: Vasaltis
+- key: 231
+  name: Vasaltis
+  type: Knuckle
   slots:
     - Combo
     - Thunder
     - Light
     - Extra
-- name: Kaiser Knuckles
+- key: 232
+  name: Kaiser Knuckles
+  type: Knuckle
   slots:
     - Combo
     - Combo
     - Power
     - Power
-- name: Lost Regnum
+- key: 233
+  name: Lost Regnum
+  type: Knuckle
   slots:
     - Combo
     - Power

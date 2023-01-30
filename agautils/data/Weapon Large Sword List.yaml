@@ -1,109 +1,159 @@
-- name: Iron Blade
+- key: 57
+  name: Iron Blade
+  type: Large Sword
   slots: []
-- name: Zweihander
+- key: 58
+  name: Zweihander
+  type: Large Sword
   slots: []
-- name: Silver Blade
+- key: 59
+  name: Silver Blade
+  type: Large Sword
   slots: []
-- name: Zanbato
+- key: 60
+  name: Zanbato
+  type: Large Sword
   slots:
     - Power
-- name: Brionac
+- key: 61
+  name: Brionac
+  type: Large Sword
   slots:
     - Power
-- name: Platinum Blade
+- key: 62
+  name: Platinum Blade
+  type: Large Sword
   slots:
     - Power
-- name: Seiryu's Sword
+- key: 63
+  name: Seiryu's Sword
+  type: Large Sword
   slots:
     - General
     - Water
     - Earth
-- name: Tosukanotsurugi
+- key: 64
+  name: Tosukanotsurugi
+  type: Large Sword
   slots:
     - Power
-- name: Dragon Killer
+- key: 65
+  name: Dragon Killer
+  type: Large Sword
   slots:
     - Power
     - Fire
-- name: Mithril Blade
+- key: 66
+  name: Mithril Blade
+  type: Large Sword
   slots:
     - Power
     - Power
-- name: Shichishitou
+- key: 67
+  name: Shichishitou
+  type: Large Sword
   slots:
     - Power
     - Power
-- name: Brynhildr
+- key: 68
+  name: Brynhildr
+  type: Large Sword
   slots:
     - Power
     - Wind
     - Light
-- name: Tyr's Fang
+- key: 69
+  name: Tyr's Fang
+  type: Large Sword
   slots:
     - Power
     - Power
     - Earth
-- name: Flamberge
+- key: 70
+  name: Flamberge
+  type: Large Sword
   slots:
     - Power
     - Fire
     - Fire
-- name: O-Blade
+- key: 71
+  name: O-Blade
+  type: Large Sword
   slots:
     - Power
     - Power
-- name: Sea Fire
+- key: 72
+  name: Sea Fire
+  type: Large Sword
   slots:
     - Power
     - Power
     - Fire
-- name: Snow Wolf's Fang
+- key: 73
+  name: Snow Wolf's Fang
+  type: Large Sword
   slots:
     - Power
     - Power
     - Water
-- name: Annihilator
+- key: 74
+  name: Annihilator
+  type: Large Sword
   slots:
     - Power
     - Power
     - General
-- name: Dragvindel
+- key: 75
+  name: Dragvindel
+  type: Large Sword
   slots:
     - Power
     - Power
     - Fire
     - Earth
-- name: Avalanche
+- key: 76
+  name: Avalanche
+  type: Large Sword
   slots:
     - Power
     - Power
     - Water
     - Water
-- name: Yagrush
+- key: 77
+  name: Yagrush
+  type: Large Sword
   slots:
     - Power
     - Thunder
     - Dark
     - Light
-- name: Aymur
+- key: 78
+  name: Aymur
+  type: Large Sword
   slots:
     - General
     - Water
     - Wind
     - Earth
-- name: Agito
+- key: 79
+  name: Agito
+  type: Large Sword
   slots:
     - Power
     - Power
     - Power
     - General
-- name: Dynamis's End
+- key: 80
+  name: Dynamis's End
+  type: Large Sword
   slots:
     - Power
     - General
     - Dark
     - Extra
-- name: Muso Fugaku
+- key: 81
+  name: Muso Fugaku
+  type: Large Sword
   slots:
     - Power
     - Power

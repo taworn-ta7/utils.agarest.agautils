@@ -1,161 +1,227 @@
-- name: Iron Scythe
+- key: 306
+  name: Iron Scythe
+  type: Scythe
   slots: []
-- name: Bone Scythe
+- key: 307
+  name: Bone Scythe
+  type: Scythe
   slots:
     - Dark
-- name: Silver Scythe
+- key: 308
+  name: Silver Scythe
+  type: Scythe
   slots:
     - Power
-- name: Headhunting Scythe
+- key: 309
+  name: Headhunting Scythe
+  type: Scythe
   slots:
     - Special
     - Dark
-- name: Demonic Scythe
+- key: 310
+  name: Demonic Scythe
+  type: Scythe
   slots:
     - Special
     - Dark
     - Dark
-- name: Flare Barrel
+- key: 311
+  name: Flare Barrel
+  type: Scythe
   slots:
     - Fire
     - Fire
     - Fire
-- name: Aqua Scythe
+- key: 312
+  name: Aqua Scythe
+  type: Scythe
   slots:
     - Water
     - Water
     - Water
-- name: Photon Edge
+- key: 313
+  name: Photon Edge
+  type: Scythe
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Void Scythe
+- key: 314
+  name: Void Scythe
+  type: Scythe
   slots:
     - Wind
     - Wind
     - Wind
-- name: Dignor
+- key: 315
+  name: Dignor
+  type: Scythe
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Scythe
+- key: 316
+  name: Platinum Scythe
+  type: Scythe
   slots:
     - Power
     - Special
-- name: Executioner
+- key: 317
+  name: Executioner
+  type: Scythe
   slots:
     - Special
     - Dark
-- name: Damascus Scythe
+- key: 318
+  name: Damascus Scythe
+  type: Scythe
   slots:
     - Power
     - Power
-- name: Kamaitachi Arm
+- key: 319
+  name: Kamaitachi Arm
+  type: Scythe
   slots:
     - Special
     - Water
     - Wind
-- name: Testament
+- key: 320
+  name: Testament
+  type: Scythe
   slots:
     - Thunder
     - Light
     - Extra
-- name: Mithril Scythe
+- key: 321
+  name: Mithril Scythe
+  type: Scythe
   slots:
     - Power
     - Special
-- name: Scythe of Contract
+- key: 322
+  name: Scythe of Contract
+  type: Scythe
   slots:
     - Special
     - Dark
     - Extra
-- name: Death-Scythe
+- key: 323
+  name: Death-Scythe
+  type: Scythe
   slots:
     - Power
     - Power
     - Dark
-- name: Einphantom
+- key: 324
+  name: Einphantom
+  type: Scythe
   slots:
     - Power
     - Power
     - Earth
-- name: Wind Slicer
+- key: 325
+  name: Wind Slicer
+  type: Scythe
   slots:
     - Power
     - Thunder
     - Wind
-- name: Soul Sucker
+- key: 326
+  name: Soul Sucker
+  type: Scythe
   slots:
     - Special
     - Dark
     - Extra
-- name: Orichalcum Scythe
+- key: 327
+  name: Orichalcum Scythe
+  type: Scythe
   slots:
     - Power
     - Power
     - Special
-- name: Finbrain
+- key: 328
+  name: Finbrain
+  type: Scythe
   slots:
     - Special
     - Water
     - Water
     - Earth
-- name: Reaper's Sickle
+- key: 329
+  name: Reaper's Sickle
+  type: Scythe
   slots:
     - Fire
     - Earth
     - Dark
     - Dark
-- name: Louisette
+- key: 330
+  name: Louisette
+  type: Scythe
   slots:
     - Water
     - Thunder
     - Wind
     - Extra
-- name: Ginna's Scythe
+- key: 331
+  name: Ginna's Scythe
+  type: Scythe
   slots:
     - Power
     - Power
     - Power
-- name: Crescent Moon
+- key: 332
+  name: Crescent Moon
+  type: Scythe
   slots:
     - Wind
     - Light
     - Light
     - Extra
-- name: Halper Scythe
+- key: 333
+  name: Halper Scythe
+  type: Scythe
   slots:
     - Power
     - Power
     - Special
     - Special
-- name: Hades
+- key: 334
+  name: Hades
+  type: Scythe
   slots:
     - Power
     - Water
     - Dark
     - Extra
-- name: Helheim
+- key: 335
+  name: Helheim
+  type: Scythe
   slots:
     - Power
     - Fire
     - Earth
     - Extra
-- name: G.O.H.
+- key: 336
+  name: G.O.H.
+  type: Scythe
   slots:
     - Power
     - Special
     - Light
     - Extra
-- name: S.O.D.
+- key: 337
+  name: S.O.D.
+  type: Scythe
   slots:
     - Power
     - Earth
     - Dark
     - Extra
-- name: Soul Blaze
+- key: 338
+  name: Soul Blaze
+  type: Scythe
   slots:
     - Power
     - Dark

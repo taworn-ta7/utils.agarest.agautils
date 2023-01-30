@@ -52,7 +52,7 @@ export default {
 	},
 
 	mounted() {
-		this.selectedCharacter = this.dataStore.selectedCharacter;
+		this.selectedCharacter = this.dataStore.selectedCharacter ? this.dataStore.selectedCharacter.name : null;
 		this.proofOfValor = this.dataStore.proofOfValor;
 		this.refresh();
 	},
@@ -67,9 +67,9 @@ export default {
 		},
 
 		refresh: function () {
-			const data = this.dataStore.getCharacterData(this.selectedCharacter);
-			console.log(`data: ${JSON.stringify(data)}, proof of valor=${this.proofOfValor}`);
-			let text = `${data.name}
+			if (this.selectedCharacter) {
+				const data = this.dataStore.getCharacterData(this.selectedCharacter);
+				let text = `${data.name}
 
 Weapons:
 ${this.formatWeaponList(data.weapons)}
@@ -79,17 +79,21 @@ Unit Slots:
 - ${data.slots[2]}
 - ${data.slots[3]}
 `;
-			if (this.proofOfValor) {
-				text += `- ${data.slots[4]}
+				if (this.proofOfValor) {
+					text += `- ${data.slots[4]}
 - ${data.slots[5]}
 `;
+				}
+				this.resultSlots = text;
 			}
-			this.resultSlots = text;
+			else {
+				this.resultSlots = "";
+			}
 		},
 
 		weapon: function () {
 			if (this.selectedCharacter) {
-				this.dataStore.selectedCharacter = this.selectedCharacter;
+				this.dataStore.selectedCharacter = this.dataStore.getCharacterData(this.selectedCharacter);
 				this.dataStore.proofOfValor = this.proofOfValor;
 				this.dataStore.selectedUi = 1;
 				this.dataStore.selectedWeapon = null;
@@ -99,7 +103,7 @@ Unit Slots:
 
 		skill: function () {
 			if (this.selectedCharacter) {
-				this.dataStore.selectedCharacter = this.selectedCharacter;
+				this.dataStore.selectedCharacter = this.dataStore.getCharacterData(this.selectedCharacter);
 				this.dataStore.proofOfValor = this.proofOfValor;
 				this.dataStore.selectedUi = 2;
 				this.dataStore.selectedSkill = null;

@@ -1,160 +1,226 @@
-- name: Iron Break
+- key: 236
+  name: Iron Break
+  type: Breaker
   slots: []
-- name: Longhorn
+- key: 237
+  name: Longhorn
+  type: Breaker
   slots:
     - Earth
-- name: Silver Break
+- key: 238
+  name: Silver Break
+  type: Breaker
   slots:
     - Special
-- name: Moonring Blade
+- key: 239
+  name: Moonring Blade
+  type: Breaker
   slots:
     - Special
     - Special
-- name: Quick Turn
+- key: 240
+  name: Quick Turn
+  type: Breaker
   slots:
     - Special
     - General
     - Wind
-- name: Fire Bird
+- key: 241
+  name: Fire Bird
+  type: Breaker
   slots:
     - Fire
     - Fire
     - Fire
-- name: Ice Breaker
+- key: 242
+  name: Ice Breaker
+  type: Breaker
   slots:
     - Water
     - Water
     - Water
-- name: Thunder Break
+- key: 243
+  name: Thunder Break
+  type: Breaker
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Wind Break
+- key: 244
+  name: Wind Break
+  type: Breaker
   slots:
     - Wind
     - Wind
     - Wind
-- name: Sol Breaker
+- key: 245
+  name: Sol Breaker
+  type: Breaker
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Break
+- key: 246
+  name: Platinum Break
+  type: Breaker
   slots:
     - Special
     - General
-- name: Dancing Sword
+- key: 247
+  name: Dancing Sword
+  type: Breaker
   slots:
     - Special
     - Special
     - Extra
-- name: Ankh Horn
+- key: 248
+  name: Ankh Horn
+  type: Breaker
   slots:
     - General
     - General
-- name: Chakram
+- key: 249
+  name: Chakram
+  type: Breaker
   slots:
     - Earth
     - Dark
     - Extra
-- name: Blazer
+- key: 250
+  name: Blazer
+  type: Breaker
   slots:
     - Special
     - General
     - General
-- name: Mithril Break
+- key: 251
+  name: Mithril Break
+  type: Breaker
   slots:
     - Special
     - General
-- name: Buistlatter
+- key: 252
+  name: Buistlatter
+  type: Breaker
   slots:
     - Special
     - Special
     - Wind
-- name: Attack Command
+- key: 253
+  name: Attack Command
+  type: Breaker
   slots:
     - General
     - General
     - Thunder
-- name: Faruky's Horn
+- key: 254
+  name: Faruky's Horn
+  type: Breaker
   slots:
     - General
     - General
-- name: Brave Dance
+- key: 255
+  name: Brave Dance
+  type: Breaker
   slots:
     - Special
     - General
     - Fire
-- name: Sarnga
+- key: 256
+  name: Sarnga
+  type: Breaker
   slots:
     - Special
     - General
     - Earth
-- name: O-Break
+- key: 257
+  name: O-Break
+  type: Breaker
   slots:
     - Special
     - Special
     - General
-- name: Silent Cross
+- key: 258
+  name: Silent Cross
+  type: Breaker
   slots:
     - Special
     - Wind
     - Dark
     - Extra
-- name: Mizuchi
+- key: 259
+  name: Mizuchi
+  type: Breaker
   slots:
     - Special
     - Water
     - Water
     - Thunder
-- name: Cruel Horn
+- key: 260
+  name: Cruel Horn
+  type: Breaker
   slots:
     - Special
     - General
     - General
-- name: Reppu
+- key: 261
+  name: Reppu
+  type: Breaker
   slots:
     - Power
     - Combo
     - Dark
-- name: Noya Eye
+- key: 262
+  name: Noya Eye
+  type: Breaker
   slots:
     - General
     - Dark
     - Light
     - Extra
-- name: Sonic Blade
+- key: 263
+  name: Sonic Blade
+  type: Breaker
   slots:
     - Special
     - Special
     - Wind
     - Wind
-- name: Dragon Wing
+- key: 264
+  name: Dragon Wing
+  type: Breaker
   slots:
     - General
     - General
     - Fire
     - Fire
-- name: Blue Dolphin
+- key: 265
+  name: Blue Dolphin
+  type: Breaker
   slots:
     - Special
     - Water
     - Light
     - Extra
-- name: Nothung
+- key: 266
+  name: Nothung
+  type: Breaker
   slots:
     - Special
     - Thunder
     - Light
     - Extra
-- name: Sudarsana
+- key: 267
+  name: Sudarsana
+  type: Breaker
   slots:
     - Special
     - Special
     - General
     - General
-- name: Mobius Link
+- key: 268
+  name: Mobius Link
+  type: Breaker
   slots:
     - General
     - Wind

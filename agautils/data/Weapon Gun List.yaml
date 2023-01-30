@@ -1,151 +1,217 @@
-- name: Handgun
+- key: 271
+  name: Handgun
+  type: Gun
   slots: []
-- name: Shotgun
+- key: 272
+  name: Shotgun
+  type: Gun
   slots: []
-- name: Silver Gun
+- key: 273
+  name: Silver Gun
+  type: Gun
   slots: []
-- name: Buster Gun
+- key: 274
+  name: Buster Gun
+  type: Gun
   slots:
     - Power
-- name: Assault Cannon
+- key: 275
+  name: Assault Cannon
+  type: Gun
   slots:
     - Power
-- name: Raika
+- key: 276
+  name: Raika
+  type: Gun
   slots:
     - Fire
     - Fire
     - Fire
-- name: Hiryu
+- key: 277
+  name: Hiryu
+  type: Gun
   slots:
     - Water
     - Water
     - Water
-- name: Gekko
+- key: 278
+  name: Gekko
+  type: Gun
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Fuma
+- key: 279
+  name: Fuma
+  type: Gun
   slots:
     - Wind
     - Wind
     - Wind
-- name: Saiga
+- key: 280
+  name: Saiga
+  type: Gun
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Gun
+- key: 281
+  name: Platinum Gun
+  type: Gun
   slots:
     - Power
     - Combo
-- name: Bone Shooter
+- key: 282
+  name: Bone Shooter
+  type: Gun
   slots:
     - Power
     - Combo
-- name: Repeater
+- key: 283
+  name: Repeater
+  type: Gun
   slots:
     - Combo
     - Combo
-- name: Shadow Blaster
+- key: 284
+  name: Shadow Blaster
+  type: Gun
   slots:
     - Power
     - Power
     - Dark
-- name: Snipe Buster
+- key: 285
+  name: Snipe Buster
+  type: Gun
   slots:
     - Power
     - Power
-- name: Mithril Gun
+- key: 286
+  name: Mithril Gun
+  type: Gun
   slots:
     - Power
     - Combo
-- name: Moon Crusher
+- key: 287
+  name: Moon Crusher
+  type: Gun
   slots:
     - Power
     - Light
     - Extra
-- name: Hidden Seeker
+- key: 288
+  name: Hidden Seeker
+  type: Gun
   slots:
     - Power
     - Combo
-- name: Sonic Gun
+- key: 289
+  name: Sonic Gun
+  type: Gun
   slots:
     - Power
     - Combo
-- name: Railgun
+- key: 290
+  name: Railgun
+  type: Gun
   slots:
     - Power
     - Power
-- name: Hidden Blaster
+- key: 291
+  name: Hidden Blaster
+  type: Gun
   slots:
     - Power
     - Power
     - Dark
-- name: Orichalcum Gun
+- key: 292
+  name: Orichalcum Gun
+  type: Gun
   slots:
     - Power
     - Power
     - Combo
-- name: Quickrain
+- key: 293
+  name: Quickrain
+  type: Gun
   slots:
     - Combo
     - Combo
     - Water
-- name: Blacksmir
+- key: 294
+  name: Blacksmir
+  type: Gun
   slots:
     - Power
     - Combo
     - Combo
     - Dark
-- name: Liquid Fire
+- key: 295
+  name: Liquid Fire
+  type: Gun
   slots:
     - Power
     - Power
     - Fire
     - Light
-- name: Hidden Stalk
+- key: 296
+  name: Hidden Stalk
+  type: Gun
   slots:
     - Power
     - Wind
     - Dark
-- name: Salamander
+- key: 297
+  name: Salamander
+  type: Gun
   slots:
     - Power
     - Fire
     - Earth
     - Extra
-- name: Sorcery Gun
+- key: 298
+  name: Sorcery Gun
+  type: Gun
   slots:
     - Combo
     - Dark
     - Light
     - Extra
-- name: Doragu Riser
+- key: 299
+  name: Doragu Riser
+  type: Gun
   slots:
     - Power
     - Power
     - Fire
     - Thunder
-- name: Hydropain
+- key: 300
+  name: Hydropain
+  type: Gun
   slots:
     - Water
     - Earth
     - Wind
     - Extra
-- name: Revolver Cannon
+- key: 301
+  name: Revolver Cannon
+  type: Gun
   slots:
     - Power
     - Power
     - Combo
     - Combo
-- name: U-Arbiter
+- key: 302
+  name: U-Arbiter
+  type: Gun
   slots:
     - Power
     - Dark
     - Light
     - Extra
-- name: Armageddon
+- key: 303
+  name: Armageddon
+  type: Gun
   slots:
     - Power
     - Power

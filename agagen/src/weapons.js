@@ -7,11 +7,16 @@ const Utils = require('./utils');
 
 const { JSDOM } = jsdom;
 
+let key = 1;
+
 function extractRow(tr) {
 	const result = {
+		key,
 		name: null,
+		type: null,
 		slots: [],
 	};
+	key++;
 
 	// extracts all columns
 	try {
@@ -48,8 +53,10 @@ function extractTable(type, table) {
 		for (let i = 0; i < trs.length; i++) {
 			const tr = trs[i];
 			const row = extractRow(tr);
-			if (row)
+			if (row) {
+				row.type = type;
 				result.push(row);
+			}
 		}
 	}
 	catch (e) {

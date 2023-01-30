@@ -1,161 +1,229 @@
-- name: Iron Spear
+- key: 124
+  name: Iron Spear
+  type: Spear
   slots: []
-- name: Corcesca
+- key: 125
+  name: Corcesca
+  type: Spear
   slots:
     - Earth
-- name: Silver Spear
+- key: 126
+  name: Silver Spear
+  type: Spear
   slots: []
-- name: Harpoon
+- key: 127
+  name: Harpoon
+  type: Spear
   slots:
     - General
     - Thunder
-- name: Pole-Axe
+- key: 128
+  name: Pole-Axe
+  type: Spear
   slots:
     - General
-- name: Flame Spear
+- key: 129
+  name: Flame Spear
+  type: Spear
   slots:
     - Fire
     - Fire
     - Fire
-- name: Ice Lance
+- key: 130
+  name: Ice Lance
+  type: Spear
   slots:
     - Water
     - Water
     - Water
-- name: Bolt Lance
+- key: 131
+  name: Bolt Lance
+  type: Spear
   slots:
     - Thunder
     - Thunder
     - Thunder
-- name: Wind Spear
+- key: 132
+  name: Wind Spear
+  type: Spear
   slots:
     - Wind
     - Wind
     - Wind
-- name: Glaive
+- key: 133
+  name: Glaive
+  type: Spear
   slots:
     - Earth
     - Earth
     - Earth
-- name: Platinum Spear
+- key: 134
+  name: Platinum Spear
+  type: Spear
   slots:
     - General
     - General
-- name: Halberd
-  slots:
-    - General
-    - Power
-- name: Damascus Spear
-  slots:
-    - General
-    - General
-- name: Partisan
+- key: 135
+  name: Halberd
+  type: Spear
   slots:
     - General
     - Power
-- name: Beast Hunt
+- key: 136
+  name: Damascus Spear
+  type: Spear
+  slots:
+    - General
+    - General
+- key: 137
+  name: Partisan
+  type: Spear
+  slots:
+    - General
+    - Power
+- key: 138
+  name: Beast Hunt
+  type: Spear
   slots:
     - Power
     - Power
     - Power
-- name: Mithril Spear
+- key: 139
+  name: Mithril Spear
+  type: Spear
   slots:
     - General
     - General
-- name: Crystal Spear
+- key: 140
+  name: Crystal Spear
+  type: Spear
   slots:
     - Water
     - Water
     - Light
-- name: Bardiche
+- key: 141
+  name: Bardiche
+  type: Spear
   slots:
     - General
     - Power
-- name: Kasensou
+- key: 142
+  name: Kasensou
+  type: Spear
   slots:
     - Power
     - Fire
     - Fire
-- name: Divine Lance
+- key: 143
+  name: Divine Lance
+  type: Spear
   slots:
     - Light
     - Light
     - Extra
-- name: Trident
+- key: 144
+  name: Trident
+  type: Spear
   slots:
     - Power
     - Water
     - Thunder
-- name: Orichalcum Spear
+- key: 145
+  name: Orichalcum Spear
+  type: Spear
   slots:
     - General
     - General
     - Power
-- name: Holy Lance
+- key: 146
+  name: Holy Lance
+  type: Spear
   slots:
     - General
     - General
     - Light
     - Light
-- name: Dragoon Lance
+- key: 147
+  name: Dragoon Lance
+  type: Spear
   slots:
     - Power
     - Power
     - Fire
-- name: Pinaka
+- key: 148
+  name: Pinaka
+  type: Spear
   slots:
     - General
     - Power
     - Power
-- name: Sansentou
+- key: 149
+  name: Sansentou
+  type: Spear
   slots:
     - General
     - Power
     - Fire
     - Thunder
-- name: Gungnir
+- key: 150
+  name: Gungnir
+  type: Spear
   slots:
     - Power
     - Power
     - Dark
     - Light
-- name: Slepinir
+- key: 151
+  name: Slepinir
+  type: Spear
   slots:
     - Power
     - Power
     - Thunder
     - Dark
-- name: High Wind
+- key: 152
+  name: High Wind
+  type: Spear
   slots:
     - General
     - Wind
     - Earth
     - Light
-- name: Revoltcane
+- key: 153
+  name: Revoltcane
+  type: Spear
   slots:
     - General
     - General
     - Power
     - Power
-- name: Vajra
+- key: 154
+  name: Vajra
+  type: Spear
   slots:
     - General
     - Power
     - Fire
     - Wind
-- name: Nirvana
+- key: 155
+  name: Nirvana
+  type: Spear
   slots:
     - General
     - General
     - Power
     - Power
-- name: Augenblick
+- key: 156
+  name: Augenblick
+  type: Spear
   slots:
     - General
     - Power
     - Thunder
     - Extra
-- name: Sons of the Sun
+- key: 157
+  name: Sons of the Sun
+  type: Spear
   slots:
     - General
     - Power
